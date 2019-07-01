@@ -5,7 +5,7 @@ publishDate: 2019-07-01T21:11:19.226523Z
 authors: ["Yu Wang", "Siddhartha Nalluri", "Borzoo Bonakdarpour", "Miroslav Pajic"]
 publication_types: ["1"]
 abstract: ""
-featured: false
+featured: true
 publication: "*arXiv:1902.04111 [Cs]. Submitted to the International Symposium on Automated Technology for Verification and Analysis*"
 ---
 

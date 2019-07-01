@@ -5,7 +5,7 @@ publishDate: 2019-07-01T21:11:19.272653Z
 authors: ["Yu Wang", "Miroslav Pajic"]
 publication_types: ["1"]
 abstract: ""
-featured: false
+featured: true
 publication: "*Submitted to the 58th IEEE Conference on Decision and Control*"
 ---
 
