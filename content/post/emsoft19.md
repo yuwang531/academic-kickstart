@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-Check our new paper on [Statistical Verification of Hyperproperties for Cyber-Physical System](https://arxiv.org/abs/1906.07253).
+Paper [Statistical Verification of Hyperproperties for Cyber-Physical System](https://arxiv.org/abs/1906.07253) accepted to EMSOFT 19.

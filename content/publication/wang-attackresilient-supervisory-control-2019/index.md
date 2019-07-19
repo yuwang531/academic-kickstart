@@ -6,6 +6,6 @@ authors: ["Yu Wang", "Miroslav Pajic"]
 publication_types: ["1"]
 abstract: ""
 featured: true
-publication: "*Submitted to the 58th IEEE Conference on Decision and Control*"
+publication: "*Accepted to the 58th IEEE Conference on Decision and Control*"
 ---
 

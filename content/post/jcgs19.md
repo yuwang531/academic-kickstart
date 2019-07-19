@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-Paper *A Logistic Factorization Model for Recommender Systems with Multinomial Responses* accepted by [Journal of Computational and Graphical Statistics](https://www.tandfonline.com/toc/ucgs20/current). Coming soon!
+Paper [*A Logistic Factorization Model for Recommender Systems with Multinomial Responses*](jcgs.pdf) accepted by Journal of Computational and Graphical Statistics.
