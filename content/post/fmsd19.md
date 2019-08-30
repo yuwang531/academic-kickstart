@@ -1,13 +1,13 @@
 ---
 # Documentation: https://sourcethemes.com/academic/docs/managing-content/
 
-title: "Best paper finalist for EMSOFT 19!"
+title: "Paper published on FMSD!"
 subtitle: ""
 summary: ""
 authors: []
 tags: ['research']
 categories: []
-date: 2019-07-13
+date: 2019-08-30
 lastmod: 2019-08-30
 featured: false
 draft: false
@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-Our paper [Statistical Verification of Hyperproperties for Cyber-Physical System](https://arxiv.org/abs/1906.07253) is one the three best paper finalist for EMSOFT 19.
+Our paper [Statistical verification of PCTL using antithetic and stratified samples](https://link.springer.com/article/10.1007/s10703-019-00339-8?wt_mc=Internal.Event.1.SEM.ArticleAuthorOnlineFirst&utm_source=ArticleAuthorOnlineFirst&utm_medium=email&utm_content=AA_en_06082018&ArticleAuthorOnlineFirst_20190830) is published on the journal *Formal Methods in System Design*.

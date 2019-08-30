@@ -28,4 +28,4 @@ image:
 projects: []
 ---
 
-Two papers [Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks](../cdc1.pdf) and [Attack-Resilient Supervisory Control with Intermittently Secure Communication](../cdc2.pdf) to appear in CDC 19 at Nice, France.
+Two of our papers [Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks](../cdc1.pdf) and [Attack-Resilient Supervisory Control with Intermittently Secure Communication](../cdc2.pdf) are to appear at CDC 19 at Nice, France.
