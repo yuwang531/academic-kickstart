@@ -19,8 +19,9 @@ date_format = "Jan 2006"
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 [[experience]]
   title = "Postdoc"
-  company = "Duke ECE"
-  company_url = "https://ece.duke.edu/"
+  advisor = "Miroslav Pajic"
+  company = "Cyber-Physical Systems Lab, Duke ECE"
+  company_url = "https://cpsl.pratt.duke.edu/"
   location = "Durham, NC"
   date_start = "2018-08-01"
   date_end = ""
@@ -34,7 +35,7 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research Assistant"
-  company = "UIUC CSL"
+  company = "Coordinated Science Lab, UIUC"
   company_url = "https://csl.illinois.edu/"
   location = "Urbana, IL"
   date_start = "2012-08-20"

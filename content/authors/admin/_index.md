@@ -18,14 +18,21 @@ organizations:
   url: "https://ece.duke.edu/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
-# - This my bio
+bio: A theorist with recently-developed interest in system engineering.
 
 
 interests:
+- Autonomy
 - Cyber Physical Security
+- Embedded Systems
+- Robotics
+- Temporal Logics
+- Hyperproperties
 - Statistical Model Checking
 - Machine Learning
+
+
+
 
 education:
   courses:

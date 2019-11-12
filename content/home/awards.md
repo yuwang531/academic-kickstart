@@ -21,12 +21,25 @@ date_format = "Jan 2006"
 
 [[item]]
  organization = "International Conference on Embedded Software (EMSOFT)"
- organization_url = "https://esweek.org/emsoft/about"
+ organization_url = "https://esweek.org/emsoft"
  title = "Best Paper Finalist"
 # url = ""
 # certificate_url = "https://www.datacamp.com"
-  date_start = "2019-10-15"
+ date_start = "2019-10-15"
 #  date_end = "2017-12-21"
 # description = ""
 
+
+[[item]]
+ organization = "Coordinated Science Laboratory, UIUC"
+ organization_url = "https://csl.illinois.edu"
+ title = "Nomination for PhD Thesis Award"
+ date_start = "2019-02-01"
+
+
+[[item]]
+ organization = "Mechanical Science and Engineering, UIUC"
+ organization_url = "https://mechanical.illinois.edu/"
+ title = "George B. Grim Fellowship"
+ date_start = "2012-08-01"
 +++
