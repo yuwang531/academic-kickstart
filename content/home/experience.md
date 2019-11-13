@@ -45,7 +45,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Undergraduate Research Assistant"
   company = "Non-Newtonian Fluid Dynamics Lab @ Tsinghua"
-#  company_url = "https://csl.illinois.edu/"
+#  company_url = "http://www.hy.tsinghua.edu.cn/publish/hyen/index.html"
   location = "Beijing, China"
   date_start = "2009-08-20"
   date_end = "2012-07-20"
