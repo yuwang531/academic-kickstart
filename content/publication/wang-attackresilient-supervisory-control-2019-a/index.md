@@ -1,10 +1,10 @@
 ---
 title: "Attack-Resilient Supervisory Control of Discrete-Event Systems"
 date: 2019-01-01
-publishDate: 2019-10-10T18:57:29.700186Z
+publishDate: 2019-11-13T00:48:37.908596Z
 authors: ["Yu Wang", "Alper Kamil Bozkurt", "Miroslav Pajic"]
 publication_types: ["2"]
-abstract: ""
+abstract: "In this work, we study the problem of supervisory control of discrete-event systems (DES) in the presence of attacks that tamper with inputs and outputs of the plant. We consider a very general system setup as we focus on both deterministic and nondeterministic plants that we model as finite state transducers (FSTs); this also covers the conventional approach to modeling DES as deterministic finite automata. Furthermore, we cover a wide class of attacks that can nondeterministically add, remove, or rewrite a sensing and/or actuation word to any word from predefined regular languages, and show how such attacks can be modeled by nondeterministic FSTs; we also present how the use of FSTs facilitates modeling realistic (and very complex) attacks, as well as provides the foundation for design of attack-resilient supervisory controllers. Specifically, we first consider the supervisory control problem for deterministic plants with attacks (i) only on their sensors, (ii) only on their actuators, and (iii) both on their sensors and actuators. For each case, we develop new conditions for controllability in the presence of attacks, as well as synthesizing algorithms to obtain FST-based description of such attack-resilient supervisors. A derived resilient controller provides a set of all safe control words that can keep the plant work desirably even in the presence of corrupted observation and/or if the control words are subjected to actuation attacks. Then, we extend the controllability theorems and the supervisor synthesizing algorithms to nondeterministic plants that satisfy a nonblocking condition. Finally, we illustrate applicability of our methodology on several examples and numerical case-studies."
 featured: false
 publication: "*IEEE Transactions on Automatic Control (TAC) (Under Review)*"
 ---

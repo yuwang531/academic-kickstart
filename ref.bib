@@ -3,6 +3,7 @@
   archivePrefix = {arXiv},
   title = {Statistical Model Checking for Hyperproperties},
   copyright = {All rights reserved},
+  abstract = {In this paper, we propose the temporal logic HyperPCTL*  that extends PCTL  and HyperPCTL to reason about probabilistic hyperproperties. It allows expressing probabilistic hyperproperties with nested temporal and probability operators. We show that HyperPCTL* can express important probabilistic information-flow security policies. Furthermore, for the first time, we investigate statistical model checking (SMC) algorithms for HyperPCTL*  specifications in discrete-time Markov chains (DTMC). To this end, we first study SMC for HyperPCTL*  specifications with non-nested probability operators for a desired confidence or significance level. Unlike existing SMC algorithms which are based on sequential probability ratio tests (SPRT), we use the Clopper-Pearson confidence interval to avoid the need of a priori knowledge on the indifference margin. Then, we extend the proposed SMC algorithms to HyperPCTL*  specifications with multiple probability operators that are nested in different ways. Finally, we evaluate the proposed algorithms on two examples, dining cryptographers and probabilistic causation.},
   booktitle = {International {{Conference}} on {{Tools}} and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} ({{TACAS}}) ({{Under Review}})},
   author = {Wang, Yu and Nalluri, Siddhartha and Bonakdarpour, Borzoo and Pajic, Miroslav},
   year = {2020}
@@ -74,6 +75,8 @@
 @inproceedings{wang_SupervisoryControlDiscrete_2019,
   archivePrefix = {arXiv},
   title = {Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks},
+  abstract = {This work focuses on control of discrete event systems (DES) in the presence of attacks on their inputs and outputs. We propose to model such attacks as nondeterministic finite state transducers (FSTs) and show how FSTs can be used to capture a very wide class of attacks including all previously considered attacks on DES, as well as additional attacks and attack features reported in recent security incidents.
+We study the supervisory control problem in cases when attacks occur: (i) only on the sensors, (ii) only on the actuators, and (iii) both on the actuators and sensors of the plant. For each case, we present new sets of controllability theorems and synthesizing algorithms for attack-resilient supervisors. On a series of examples, we illustrate the use of our approach for modeling and design of such security-aware supervisory control.},
   booktitle = {58th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
   author = {Wang, Yu and Pajic, Miroslav},
   year = {2019}
@@ -86,6 +89,7 @@
 @inproceedings{wang_AttackresilientSupervisoryControl_2019,
   archivePrefix = {arXiv},
   title = {Attack-Resilient Supervisory Control with Intermittently Secure Communication},
+  abstract = {In this work, we study supervisory control of discrete event systems in the presence of network-based attacks on information delivered to and from the supervisors. The attacks are modeled by finite state transducers (FSTs), having the ability to nondeterministically rewrite a word to any word of a regular language. A desired language is called controllable if there exists a security-aware supervisor that ensures that the restricted language executed by the plant for any possible attack behavior is the desired one \textendash{} we refer to such supervisors as attack-resilient. First, we solve the problem of computing the maximal controllable sub-language (MCSL) of a desired language and propose the design algorithm for an attackresilient supervisor, in scenarios where no security guarantees exists for communication between the plant and the supervisor. Then, we consider the case where the supervisor has active but intermittent access to a size-limited secure channel, which ensures integrity and availability of the data transmitted over it. Specifically, we propose the notion of accessibility as a measure of distance between a language and its sub-language, and show that a desired language is controllable with intermittently secure communication if and only if its difference from its MCSL without secure channel is bounded by the accessibility measure. Finally, we illustrate our approach on several examples.},
   booktitle = {58th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
   author = {Wang, Yu and Pajic, Miroslav},
   year = {2019}
@@ -99,6 +103,7 @@
   archivePrefix = {arXiv},
   title = {Statistical Verification of Hyperproperties for Cyber-Physical Systems},
   copyright = {All rights reserved},
+  abstract = {Many important properties of cyber-physical systems (CPS) are defined upon the relationship between multiple executions simultaneously in continuous time. Examples include probabilistic fairness and sensitivity to modeling errors (i.e., parameters changes) for real-valued signals. These requirements can only be specified by hyperproperties. In this work, we focus on verifying probabilistic hyperproperties for CPS. To cover a wide range of modeling formalisms, we first propose a general model of probabilistic uncertain systems (PUSs) that unify commonly studied CPS models such as continuous-time Markov chains (CTMCs) and probabilistically parametrized Hybrid I/O Automata. To formally specify hyperproperties, we propose a new temporal logic, hyper probabilistic signal temporal logic (HyperPSTL) that serves as a hyper and probabilistic version of the conventional signal temporal logic (STL). Considering complexity of real-world systems that can be captured as PUSs, we adopt a statistical model checking (SMC) approach for their verification. We develop a new SMC technique based on the direct computation of the significance levels of statistical assertions for HyperPSTL specifications, which requires no a priori knowledge on the indifference margin. Then, we introduce SMC algorithms for HyperPSTL specifications on the joint probabilistic distribution of multiple paths, as well as specifications with nested probabilistic operators quantifying different paths, which cannot be handled by existing SMC algorithms. Finally, we show the effectiveness of our SMC algorithms on CPS benchmarks with varying levels of complexity, including the Toyota Powertrain Control System.},
   journal = {ACM Transactions on Embedded Computing Systems (TECS), part of the ESWEEK-TECS special issue, presented in the ACM SIGBED International Conference on Embedded Software (EMSOFT)},
   author = {Wang, Yu and Zarei, Mojtaba and Bonakdarpour, Borzoo and Pajic, Miroslav},
   year = {2019}
@@ -252,6 +257,7 @@
 @article{wang_StudyDynamicContact_2014,
   title = {A Study of Dynamic Contact Angles of Shear-Thickening Power-Law Fluids},
   volume = {26},
+  abstract = {We study the dynamic wetting of shear-thickening power-law fluids in a liquid-solid-gas contact system. In the previous model based on hydrodynamic analysis, microscopic effects near the contact line are neglected. In this work, we adopt two different physical models, slip boundary model and molecular force model, to incorporate microscopic effects and relieve the stress singularity at the moving contact line in hydrodynamics analysis. The two models, which are mathematically equivalent for Newtonian fluids, lead to different results on the dependence of the liquid's dynamic contact angle on its moving speed in both complete wetting and partial wetting cases. By comparing with experiments, we find that the slip boundary model matches the experiments better than the previous model and the molecular force model.},
   number = {5},
   journal = {Physics of Fluids (PoF)},
   author = {Wang, Yu and Zhu, Ke-Qin},
@@ -273,6 +279,7 @@
 
 @inproceedings{wang_VerifyingPCTLSpecifications_2020,
   title = {Verifying {{PCTL}} Specifications on Markov Decision Processes via Reinforcement Learning},
+  abstract = {We propose a new statistical verification technique for PCTL\$\^*\$ logic, which unifies Probabilistic Computational Tree Logic (PCTL) and Linear Time Logic (LTL), on labeled Markov Decision Processes (MDPs) with unknown transition probabilities using reinforcement learning. We first show that verifying a non-nested PCTL\$\^*\$ formula on a MDP is equivalent to estimating the reachability probability of a goal set on the product MDP of the original MDP and a Muller automaton modeling the corresponding LTL specification. Then, we develop Q-learning algorithms to statistically estimate reachability probability on the product MDP, with the optimal policy identified and evaluated using the principle of optimism in the face of uncertainty (OFU). Specifically, we construct upper confidence bounds (UCB) for each state-action pair from previous samples, and explore the best action with the highest UCB. Using the OFU principle, we design termination conditions for any desired confidence level, and prove the correctness of the proposed algorithms. Finally, we evaluate the proposed algorithms on several case studies.},
   booktitle = {21st {{International Conference}} on {{Verification}}, {{Model Checking}}, and {{Abstract Interpretation}} ({{VMCAI}}) ({{Under Review}})},
   publisher = {{ACM}},
   author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
@@ -285,6 +292,7 @@
 @inproceedings{wang_HyperpropertiesRoboticsMotion_2020,
   archivePrefix = {arXiv},
   title = {Hyperproperties for Robotics: Motion Planning via {{HyperLTL}}},
+  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectively maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
   booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}}) ({{Under Review}})},
   author = {Wang, Yu and Pajic, Miroslav},
   year = {2020}
@@ -297,6 +305,7 @@
 @inproceedings{bozkurt_ControlSynthesisLinear_2020,
   archivePrefix = {arXiv},
   title = {Control Synthesis from Linear Temporal Logic Specifications Using Model-Free Reinforcement Learning},
+  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectivelly maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
   booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}}) ({{Under Review}})},
   author = {Bozkurt, Alper Kamil and Wang, Yu and Zavlanos, Michael and Pajic, Miroslav},
   year = {2020}
@@ -344,6 +353,8 @@
 
 @inproceedings{zarei_StatisticalVerificationLearningEnabled_2020,
   title = {Statistical  {{Verification}}  of  {{Learning}}-{{Enabled}}  {{Controlled}}  {{Systems}}},
+  abstract = {The use of Neural Network (NN)-based controllers has attracted significant attentions in recent years. However, due to the complexity and non-linearity of such NN-based cyber-physical systems (CPS), existing verification techniques that employ exhaustive state-space search, face significant scalability challenges; this effectively limits their capability for analyzing real-world CPS. Consequently, in this work, we focus on the use of Statistical Model Checking (SMC) for verifying complex NN-controlled CPS. Using an SMC approach based on Clopper-Pearson confidence levels, we verify from samples specifications defined by Signal Temporal Logic (STL) formulas. Specifically, we consider three CPS benchmarks with varying levels of plant and controller complexity, as well as the type of considered STL properties -- reachability property for a mountain car, safety property for a bipedal robot, and control performance of the closed-loop magnet levitation system.
+On these benchmarks, we show that SMC methods can be successfully used to provide high-assurance for learning-based CPS.},
   booktitle = {23rd {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}}) ({{Under Review}})},
   publisher = {{ACM}},
   author = {Zarei, Mojtaba and Wang, Yu and Pajic, Miroslav},
@@ -357,6 +368,29 @@
   archivePrefix = {arXiv},
   title = {{{STMC}}: {{Statistical Model Checker}} with {{Stratified}} and {{Antithetic Sampling}}},
   copyright = {All rights reserved},
+  abstract = {STMC is a statistical model checker that uses 
+antithetic and stratified sampling techniques 
+to reduce the number of samples and, hence, 
+the amount of time required before making a decision. 
+The tool is capable of statistically verifying any  
+black-box probabilistic system that PRISM can simulate, 
+against probabilistic bounds on any property that PRISM 
+can evaluate over individual executions of the system. 
+We have evaluated our tool on many examples and compared 
+it with both symbolic and statistical algorithms. 
+Our experimental results show that our techniques 
+are indeed able to reduce the number of samples significantly. 
+When the number of strata is large, our algorithms 
+reduced the number of samples 336\% on average.
+Furthermore, being a statistical model checker makes STMC 
+able to verify models that are well beyond the reach of current 
+symbolic model checkers. 
+On large systems (up to 10e14 states) 
+STMC was able to check 100\% of benchmark systems, 
+compared to existing methods which only succeeded on 14\% of systems.
+The tool, installation instructions, benchmarks, and
+scripts for running the benchmarks are all available online
+as open source.},
   booktitle = {International {{Conference}} on {{Tools}} and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} ({{TACAS}}) ({{Under Review}})},
   author = {Roohi, Nima and Wang, Yu and West, Matthew and Dullerud, Geir E and Viswanathan, Mahesh},
   year = {2020}
