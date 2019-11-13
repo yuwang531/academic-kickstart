@@ -20,7 +20,7 @@ date_format = "Jan 2006"
 [[experience]]
   title = "Postdoc"
   advisor = "Miroslav Pajic"
-  company = "Cyber-Physical Systems Lab, Duke ECE"
+  company = "Cyber-Physical Systems Lab @ Duke ECE"
   company_url = "https://cpsl.pratt.duke.edu/"
   location = "Durham, NC"
   date_start = "2018-08-01"
@@ -35,11 +35,19 @@ date_format = "Jan 2006"
 
 [[experience]]
   title = "Research Assistant"
-  company = "Coordinated Science Lab, UIUC"
+  company = "Coordinated Science Lab @ UIUC"
   company_url = "https://csl.illinois.edu/"
   location = "Urbana, IL"
   date_start = "2012-08-20"
   date_end = "2018-07-20"
 #  description = """Taught electronic engineering and researched semiconductor physics."""
+
+[[experience]]
+  title = "Undergraduate Research Assistant"
+  company = "Non-Newtonian Fluid Dynamics Lab @ Tsinghua"
+#  company_url = "https://csl.illinois.edu/"
+  location = "Beijing, China"
+  date_start = "2009-08-20"
+  date_end = "2012-07-20"
 
 +++
