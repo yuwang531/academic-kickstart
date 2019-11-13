@@ -68,7 +68,7 @@ subtitle = ""
   
 [advanced]
  # Custom CSS. 
- css_style = ""
+ css_style = "text_align:justify"
  
  # CSS class.
  css_class = ""
