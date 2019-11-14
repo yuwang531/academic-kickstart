@@ -5,12 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 60  # Order that this section will appear.
 
-title = "Tools"
+title = "Software Artifacts"
 +++
 
-I have contributed to the development of the following tool artifacts.
 
-<small>
 <p>
 <a href=https://nima-roohi.github.io/STMC/#/>
 STMC: 
@@ -56,4 +54,3 @@ SMCLearning:
 </a>
 Statistical model checker for deep-neural-network-enabled cyber-physical systems
 </p>
-</small>
