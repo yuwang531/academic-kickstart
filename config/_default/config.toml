@@ -16,7 +16,8 @@ baseurl = "https://yuwang531.github.io/"
 copyright = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-119603663-1"
+
 
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
