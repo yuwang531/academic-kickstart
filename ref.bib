@@ -1,15 +1,13 @@
 
-@inproceedings{wang_StatisticalModelChecking_2020,
-  archivePrefix = {arXiv},
-  title = {Statistical Model Checking for Hyperproperties},
+@inproceedings{huang_CostDifferentialPrivacy_2014,
+  title = {On the Cost of Differential Privacy in Distributed Control Systems},
   copyright = {All rights reserved},
-  abstract = {In this paper, we propose the temporal logic HyperPCTL*  that extends PCTL  and HyperPCTL to reason about probabilistic hyperproperties. It allows expressing probabilistic hyperproperties with nested temporal and probability operators. We show that HyperPCTL* can express important probabilistic information-flow security policies. Furthermore, for the first time, we investigate statistical model checking (SMC) algorithms for HyperPCTL*  specifications in discrete-time Markov chains (DTMC). To this end, we first study SMC for HyperPCTL*  specifications with non-nested probability operators for a desired confidence or significance level. Unlike existing SMC algorithms which are based on sequential probability ratio tests (SPRT), we use the Clopper-Pearson confidence interval to avoid the need of a priori knowledge on the indifference margin. Then, we extend the proposed SMC algorithms to HyperPCTL*  specifications with multiple probability operators that are nested in different ways. Finally, we evaluate the proposed algorithms on two examples, dining cryptographers and probabilistic causation.},
-  booktitle = {International {{Conference}} on {{Tools}} and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} ({{TACAS}}) ({{Under Review}})},
-  author = {Wang, Yu and Nalluri, Siddhartha and Bonakdarpour, Borzoo and Pajic, Miroslav},
-  year = {2020}
+  booktitle = {3rd {{International Conference}} on {{High Confidence Networked Systems}} ({{HiCoNS}})},
+  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
+  year = {2014},
+  pages = {105-114}
 }
-% == BibTeX quality report for wang_StatisticalModelChecking_2020:
-% Missing required field 'pages'
+% == BibTeX quality report for huang_CostDifferentialPrivacy_2014:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
@@ -27,51 +25,6 @@
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@inproceedings{huang_CostDifferentialPrivacy_2014,
-  title = {On the Cost of Differential Privacy in Distributed Control Systems},
-  copyright = {All rights reserved},
-  booktitle = {3rd {{International Conference}} on {{High Confidence Networked Systems}} ({{HiCoNS}})},
-  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2014},
-  pages = {105-114}
-}
-% == BibTeX quality report for huang_CostDifferentialPrivacy_2014:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@phdthesis{wang_StabilityLinearSystems_2014,
-  title = {Stability of {{Linear Systems}} under {{Regular Switching Sequences}}},
-  copyright = {All rights reserved},
-  school = {University of Illinois at Urbana-Champaign},
-  author = {Wang, Yu},
-  year = {2014}
-}
-% == BibTeX quality report for wang_StabilityLinearSystems_2014:
-% ? Title looks like it was stored in title-case in Zotero
-
-@phdthesis{wang_StatisticalVerificationDifferential_2018,
-  title = {Statistical {{Verification}} and {{Differential Privacy}} in {{Cyber}}-{{Physical Systems}}},
-  copyright = {All rights reserved},
-  school = {University of Illinois at Urbana Champaign},
-  author = {Wang, Yu},
-  year = {2018}
-}
-% == BibTeX quality report for wang_StatisticalVerificationDifferential_2018:
-% ? Title looks like it was stored in title-case in Zotero
-
-@article{wang_AttackresilientSupervisoryControl_2019a,
-  archivePrefix = {arXiv},
-  title = {Attack-Resilient Supervisory Control of Discrete-Event Systems},
-  abstract = {In this work, we study the problem of supervisory control of discrete-event systems (DES) in the presence of attacks that tamper with inputs and outputs of the plant. We consider a very general system setup as we focus on both deterministic and nondeterministic plants that we model as finite state transducers (FSTs); this also covers the conventional approach to modeling DES as deterministic finite automata. Furthermore, we cover a wide class of attacks that can nondeterministically add, remove, or rewrite a sensing and/or actuation word to any word from predefined regular languages, and show how such attacks can be modeled by nondeterministic FSTs; we also present how the use of FSTs facilitates modeling realistic (and very complex) attacks, as well as provides the foundation for design of attack-resilient supervisory controllers. Specifically, we first consider the supervisory control problem for deterministic plants with attacks (i) only on their sensors, (ii) only on their actuators, and (iii) both on their sensors and actuators. For each case, we develop new conditions for controllability in the presence of attacks, as well as synthesizing algorithms to obtain FST-based description of such attack-resilient supervisors. A derived resilient controller provides a set of all safe control words that can keep the plant work desirably even in the presence of corrupted observation and/or if the control words are subjected to actuation attacks. Then, we extend the controllability theorems and the supervisor synthesizing algorithms to nondeterministic plants that satisfy a nonblocking condition. Finally, we illustrate applicability of our methodology on several examples and numerical case-studies.},
-  journal = {IEEE Transactions on Automatic Control (TAC) (Under Review)},
-  author = {Wang, Yu and Bozkurt, Alper Kamil and Pajic, Miroslav},
-  year = {2019}
-}
-% == BibTeX quality report for wang_AttackresilientSupervisoryControl_2019a:
-% Missing required field 'number'
-% Missing required field 'pages'
-% Missing required field 'volume'
-
 @inproceedings{wang_SupervisoryControlDiscrete_2019,
   archivePrefix = {arXiv},
   title = {Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks},
@@ -86,7 +39,7 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@inproceedings{wang_AttackresilientSupervisoryControl_2019,
+@inproceedings{wang_AttackresilientSupervisoryControl_2019a,
   archivePrefix = {arXiv},
   title = {Attack-Resilient Supervisory Control with Intermittently Secure Communication},
   abstract = {In this work, we study supervisory control of discrete event systems in the presence of network-based attacks on information delivered to and from the supervisors. The attacks are modeled by finite state transducers (FSTs), having the ability to nondeterministically rewrite a word to any word of a regular language. A desired language is called controllable if there exists a security-aware supervisor that ensures that the restricted language executed by the plant for any possible attack behavior is the desired one \textendash{} we refer to such supervisors as attack-resilient. First, we solve the problem of computing the maximal controllable sub-language (MCSL) of a desired language and propose the design algorithm for an attackresilient supervisor, in scenarios where no security guarantees exists for communication between the plant and the supervisor. Then, we consider the case where the supervisor has active but intermittent access to a size-limited secure channel, which ensures integrity and availability of the data transmitted over it. Specifically, we propose the notion of accessibility as a measure of distance between a language and its sub-language, and show that a desired language is controllable with intermittently secure communication if and only if its difference from its MCSL without secure channel is bounded by the accessibility measure. Finally, we illustrate our approach on several examples.},
@@ -94,7 +47,7 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
   author = {Wang, Yu and Pajic, Miroslav},
   year = {2019}
 }
-% == BibTeX quality report for wang_AttackresilientSupervisoryControl_2019:
+% == BibTeX quality report for wang_AttackresilientSupervisoryControl_2019a:
 % Missing required field 'pages'
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
@@ -143,11 +96,12 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
   title = {Statistical Verification of the {{Toyota}} Powertrain Control Verification Benchmark},
   abstract = {The Toyota Powertrain Control Verification Benchmark has been recently proposed as challenge problems that capture features of realistic automotive designs. In this paper we statistically verify the most complicated of the powertrain control models proposed, that includes features like delayed differential and difference equations, look-up tables, and highly non-linear dynamics, by simulating the C++ code generated from the SimulinkTM model of the design. Our results show that for at least 98\% of the possible initial operating conditions the desired properties hold. These are the first verification results for this model, statistical or otherwise.},
   booktitle = {20th {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
-  publisher = {{ACM}},
   author = {Roohi, Nima and Wang, Yu and West, Matthew and Dullerud, Geir E. and Viswanathan, Mahesh},
   year = {2017},
   pages = {65--70}
 }
+% == BibTeX quality report for roohi_StatisticalVerificationToyota_2017:
+% Missing required field 'publisher'
 
 @inproceedings{wang_EntropyminimizingMechanismDifferential_2014,
   title = {Entropy-Minimizing Mechanism for Differential Privacy of Discrete-Time Linear Feedback Systems},
@@ -161,50 +115,39 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@article{wang_DifferentialPrivacyLinear_2017,
-  title = {Differential Privacy in Linear Distributed Control Systems: {{Entropy}} Minimizing Mechanisms and Performance Tradeoffs},
-  volume = {4},
-  abstract = {In distributed control systems with shared resources, participating agents can improve the overall performance of the system by sharing data about their personal preferences. In this paper, we formulate and study a natural tradeoff arising in these problems between the privacy of the agent's data and the performance of the control system. We formalize privacy in terms of differential privacy of agents' preference vectors. The overall control system consists of N agents with linear discrete-time coupled dynamics, each controlled to track its preference vector. Performance of the system is measured by the mean squared tracking error. We present a mechanism that achieves differential privacy by adding Laplace noise to the shared information in a way that depends on the sensitivity of the control system to the private data. We show that for stable systems the performance cost of using this type of privacy preserving mechanism grows as O(T3/N{$\epsilon$}2), where T is the time horizon and {$\epsilon$} is the privacy parameter. For unstable systems, the cost grows exponentially with time. From an estimation point of view, we establish a lower-bound for the entropy of any unbiased estimator of the private data from any noise-adding mechanism that gives {$\epsilon$}-differential privacy. We show that the mechanism achieving this lower-bound is a randomized mechanism that also uses Laplace noise.},
-  number = {1},
-  journal = {IEEE Transactions on Control of Network Systems (TCNS)},
-  author = {Wang, Yu and Huang, Zhenqi and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2017},
-  pages = {118-130}
+@inproceedings{wang_StabilityLinearAutonomous_2014,
+  title = {Stability of Linear Autonomous Systems under Regular Switching Sequences},
+  abstract = {In this work, we discuss the stability of a discrete-time linear autonomous system under regular switching sequences, whose switching sequences are generated by a Muller automaton. The asymptotic stability of this system, referred to as regular asymptotic stability, generalizes two well-known definitions of stability of autonomous discrete-time linear switched systems, namely absolute asymptotic stability (AAS) and shuffle asymptotic stability (SAS). We also extend these stability definitions to robust versions. We prove that absolute asymptotic stability, robust absolute asymptotic stability and robust shuffle asymptotic stability are equivalent to exponential stability. In addition, by using the Kronecker product, we prove that a robust regular asymptotic stability problem is equivalent to the conjunction of several robust absolute asymptotic stability problems.},
+  booktitle = {53rd {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Wang, Yu and Roohi, Nima and Dullerud, Geir E. and Viswanathan, Mahesh},
+  year = {2014},
+  pages = {5445-5450}
 }
-
-@inproceedings{wang_DifferentialPrivacyMinimumvariance_2017,
-  title = {Differential Privacy and Minimum-Variance Unbiased Estimation in Multi-Agent Control Systems},
-  volume = {50},
-  abstract = {In a discrete-time linear multi-agent control system, where the agents are coupled via an environmental state, knowledge of the environmental state is desirable to control the agents locally. However, since the environmental state depends on the behavior of the agents, sharing it directly among these agents jeopardizes the privacy of the agents' profiles, defined as the combination of the agents' initial states and the sequence of local control inputs over time. A commonly used solution is to randomize the environmental state before sharing - this leads to a natural trade-off between the privacy of the agents' profiles and the variance of estimating the environmental state. By treating the multi-agent system as a probabilistic model of the environmental state parametrized by the agents' profiles, we show that when the agents' profiles is e-differentially private, there is a lower bound on the l1 induced norm of the covariance matrix of the minimum-variance unbiased estimator of the environmental state. This lower bound is achieved by a randomized mechanism that uses Laplace noise.},
-  booktitle = {20th {{IFAC World Congress}} ({{WC}}), {{IFAC}}-{{PapersOnLine}}},
-  author = {Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2017},
-  pages = {9521-9526}
-}
-% == BibTeX quality report for wang_DifferentialPrivacyMinimumvariance_2017:
+% == BibTeX quality report for wang_StabilityLinearAutonomous_2014:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@article{wang_StabilityAnalysisSwitched_2017,
-  title = {Stability Analysis of Switched Linear Systems Defined by Regular Languages},
-  volume = {62},
-  abstract = {In this work, we study the stability of an autonomous discrete-time linear switched system whose switching sequences are generated by a Muller automaton. This system arises in various engineering problems such as distributed communication and automotive engine control. The asymptotic stability of this system, referred to as regular asymptotic stability (RAS), generalizes two well-known definitions of stability of autonomous discrete-time linear switched systems, namely absolute asymptotic stability (AAS) and shuffle asymptotic stability (SAS). We also extend these stability definitions to robust versions. We show that absolute asymptotic stability, robust absolute asymptotic stability and robust shuffle asymptotic stability are equivalent to exponential stability. In addition, by using the Kronecker product, we prove that a robust regular asymptotic stability problem is equivalent to the conjunction of several robust absolute asymptotic stability problems.},
-  number = {5},
-  journal = {IEEE Transactions on Automatic Control (TAC)},
-  author = {Wang, Yu and Roohi, Nima and Dullerud, Geir E. and Viswanathan, Mahesh},
-  year = {2017},
-  pages = {2568-2575}
+@inproceedings{huang_ControllerSynthesisInductive_2015,
+  title = {Controller Synthesis with Inductive Proofs for Piecewise Linear Systems: {{An SMT}}-Based Algorithm},
+  abstract = {We present a controller synthesis algorithm for reach-avoid problems for piecewise linear discrete-time systems. Our algorithm relies on SMT solvers and in this paper we focus on piecewise constant control strategies. Our algorithm generates feedback control laws together with inductive proofs of unbounded time safety and progress properties with respect to the reach-avoid sets. Under a reasonable robustness assumption, the algorithm is shown to be complete. That is, it either generates a controller of the above type along with a proof of correctness, or it establishes the impossibility of the existence of such controllers. To achieve this, the algorithm iteratively attempts to solve a weakened and strengthened versions of the SMT encoding of the reach-avoid problem. We present preliminary experimental results on applying this algorithm based on a prototype implementation.},
+  booktitle = {54th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
+  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E. and Chaudhuri, Swarat},
+  year = {2015},
+  pages = {7434-7439}
 }
+% == BibTeX quality report for huang_ControllerSynthesisInductive_2015:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
 
-@inproceedings{wang_VerifyingContinuoustimeStochastic_2016,
-  title = {Verifying Continuous-Time Stochastic Hybrid Systems via {{Mori}}-{{Zwanzig}} Model Reduction},
-  abstract = {In this work, we develop a method for verifying Continuous-time Stochastic Hybrid Systems (CTSHSs) using the Mori-Zwanzig model reduction method, whose behaviors are specified by Metric Interval Temporal Logic (MITL) formulas. By partitioning the state space of the CTSHS and computing the optimal transition rates between partitions, we provide a procedure to both reduce a CTSHS to a Continuous-Time Markov Chain (CTMC), and the associated MITL formulas defined on the CTSHS to MITL specifications on the CTMC. We prove that an MITL formula on the CTSHS is true (or false) if the corresponding MITL formula on the CTMC is robustly true (or false) under certain perturbations. In addition, we propose a stochastic algorithm to complete the verification. Finally, as an example, we implement the method in a Billiard Problem.},
-  booktitle = {55th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
+@inproceedings{huang_ControllerSynthesisLinear_2016,
+  title = {Controller Synthesis for Linear Dynamical Systems with Adversaries},
+  abstract = {We present a controller synthesis algorithm for a reach-avoid problem in the presence of adversaries. Our model of the adversary abstractly captures typical malicious attacks envisioned on cyber-physical systems such as sensor spoofing, controller corruption, and actuator intrusion. After formulating the problem in a general setting, we present a sound and complete algorithm for the case with linear dynamics and an adversary with a budget on the total L2-norm of its actions. The algorithm relies on a result from linear control theory that enables us to decompose and compute the reachable states of the system in terms of a symbolic simulation of the adversary-free dynamics and the total uncertainty induced by the adversary. With this decomposition, the synthesis problem eliminates the universal quantifier on the adversary's choices and the symbolic controller actions can be effectively solved using an SMT solver. The constraints induced by the adversary are computed by solving second-order cone programmings. The algorithm is later extended to synthesize state-dependent controller and to generate attacks for the adversary. We present preliminary experimental results that show the effectiveness of this approach on several example problems.},
+  booktitle = {3rd {{ACM Symposium}} and {{Bootcamp}} on the {{Science}} of {{Security}} ({{HoTSoS}})},
+  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
   year = {2016},
-  pages = {3012-3017}
+  pages = {53--62}
 }
-% == BibTeX quality report for wang_VerifyingContinuoustimeStochastic_2016:
+% == BibTeX quality report for huang_ControllerSynthesisLinear_2016:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
@@ -220,39 +163,39 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@inproceedings{huang_ControllerSynthesisLinear_2016,
-  title = {Controller Synthesis for Linear Dynamical Systems with Adversaries},
-  abstract = {We present a controller synthesis algorithm for a reach-avoid problem in the presence of adversaries. Our model of the adversary abstractly captures typical malicious attacks envisioned on cyber-physical systems such as sensor spoofing, controller corruption, and actuator intrusion. After formulating the problem in a general setting, we present a sound and complete algorithm for the case with linear dynamics and an adversary with a budget on the total L2-norm of its actions. The algorithm relies on a result from linear control theory that enables us to decompose and compute the reachable states of the system in terms of a symbolic simulation of the adversary-free dynamics and the total uncertainty induced by the adversary. With this decomposition, the synthesis problem eliminates the universal quantifier on the adversary's choices and the symbolic controller actions can be effectively solved using an SMT solver. The constraints induced by the adversary are computed by solving second-order cone programmings. The algorithm is later extended to synthesize state-dependent controller and to generate attacks for the adversary. We present preliminary experimental results that show the effectiveness of this approach on several example problems.},
-  booktitle = {3rd {{ACM Symposium}} and {{Bootcamp}} on the {{Science}} of {{Security}} ({{HoTSoS}})},
-  publisher = {{ACM}},
-  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2016},
-  pages = {53--62}
-}
-% == BibTeX quality report for huang_ControllerSynthesisLinear_2016:
-% ? Unsure about the formatting of the booktitle
-
-@inproceedings{wang_StatisticalVerificationDynamical_2015,
-  title = {Statistical Verification of Dynamical Systems Using Set Oriented Methods},
-  abstract = {Modeling, analyzing and verifying real physical systems has long been a challenging task since the state space of the systems is usually infinite and the dynamics of the systems is generally nonlinear and stochastic. In this work, we employ an extension of linear temporal logic (LTL) to describe the behavior of discrete-time nonlinear stochastic systems; this extension is so-called linear inequality LTL (iLTL) which allows for atomic propositions that are linear inequalities on state spaces. To statistically verify iLTL formulas on the systems, we first reformulate discrete-time nonlinear stochastic dynamical systems into Markov processes on their continuous state spaces and then reduce them to discrete-time Markov chains (DTMC) using set-oriented methods. Furthermore, a statistical verification algorithm is proposed to verify iLTL formulas on the reduced systems. The correctness of this statistical verification algorithm is checked both by theoretical analysis and the simulation of a fluid problem. We will show in the successive work that the framework extends to hybrid systems, which is a significant motivation for the approach taken.},
-  booktitle = {18th {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
-  publisher = {{ACM}},
+@inproceedings{wang_VerifyingContinuoustimeStochastic_2016,
+  title = {Verifying Continuous-Time Stochastic Hybrid Systems via {{Mori}}-{{Zwanzig}} Model Reduction},
+  abstract = {In this work, we develop a method for verifying Continuous-time Stochastic Hybrid Systems (CTSHSs) using the Mori-Zwanzig model reduction method, whose behaviors are specified by Metric Interval Temporal Logic (MITL) formulas. By partitioning the state space of the CTSHS and computing the optimal transition rates between partitions, we provide a procedure to both reduce a CTSHS to a Continuous-Time Markov Chain (CTMC), and the associated MITL formulas defined on the CTSHS to MITL specifications on the CTMC. We prove that an MITL formula on the CTSHS is true (or false) if the corresponding MITL formula on the CTMC is robustly true (or false) under certain perturbations. In addition, we propose a stochastic algorithm to complete the verification. Finally, as an example, we implement the method in a Billiard Problem.},
+  booktitle = {55th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
   author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2015},
-  pages = {169--178}
+  year = {2016},
+  pages = {3012-3017}
 }
-
-@inproceedings{huang_ControllerSynthesisInductive_2015,
-  title = {Controller Synthesis with Inductive Proofs for Piecewise Linear Systems: {{An SMT}}-Based Algorithm},
-  abstract = {We present a controller synthesis algorithm for reach-avoid problems for piecewise linear discrete-time systems. Our algorithm relies on SMT solvers and in this paper we focus on piecewise constant control strategies. Our algorithm generates feedback control laws together with inductive proofs of unbounded time safety and progress properties with respect to the reach-avoid sets. Under a reasonable robustness assumption, the algorithm is shown to be complete. That is, it either generates a controller of the above type along with a proof of correctness, or it establishes the impossibility of the existence of such controllers. To achieve this, the algorithm iteratively attempts to solve a weakened and strengthened versions of the SMT encoding of the reach-avoid problem. We present preliminary experimental results on applying this algorithm based on a prototype implementation.},
-  booktitle = {54th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E. and Chaudhuri, Swarat},
-  year = {2015},
-  pages = {7434-7439}
-}
-% == BibTeX quality report for huang_ControllerSynthesisInductive_2015:
+% == BibTeX quality report for wang_VerifyingContinuoustimeStochastic_2016:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
+
+@article{wang_DifferentialPrivacyLinear_2017,
+  title = {Differential Privacy in Linear Distributed Control Systems: {{Entropy}} Minimizing Mechanisms and Performance Tradeoffs},
+  volume = {4},
+  abstract = {In distributed control systems with shared resources, participating agents can improve the overall performance of the system by sharing data about their personal preferences. In this paper, we formulate and study a natural tradeoff arising in these problems between the privacy of the agent's data and the performance of the control system. We formalize privacy in terms of differential privacy of agents' preference vectors. The overall control system consists of N agents with linear discrete-time coupled dynamics, each controlled to track its preference vector. Performance of the system is measured by the mean squared tracking error. We present a mechanism that achieves differential privacy by adding Laplace noise to the shared information in a way that depends on the sensitivity of the control system to the private data. We show that for stable systems the performance cost of using this type of privacy preserving mechanism grows as O(T3/N{$\epsilon$}2), where T is the time horizon and {$\epsilon$} is the privacy parameter. For unstable systems, the cost grows exponentially with time. From an estimation point of view, we establish a lower-bound for the entropy of any unbiased estimator of the private data from any noise-adding mechanism that gives {$\epsilon$}-differential privacy. We show that the mechanism achieving this lower-bound is a randomized mechanism that also uses Laplace noise.},
+  number = {1},
+  journal = {IEEE Transactions on Control of Network Systems (TCNS)},
+  author = {Wang, Yu and Huang, Zhenqi and Mitra, Sayan and Dullerud, Geir E.},
+  year = {2017},
+  pages = {118-130}
+}
+
+@article{wang_StabilityAnalysisSwitched_2017,
+  title = {Stability Analysis of Switched Linear Systems Defined by Regular Languages},
+  volume = {62},
+  abstract = {In this work, we study the stability of an autonomous discrete-time linear switched system whose switching sequences are generated by a Muller automaton. This system arises in various engineering problems such as distributed communication and automotive engine control. The asymptotic stability of this system, referred to as regular asymptotic stability (RAS), generalizes two well-known definitions of stability of autonomous discrete-time linear switched systems, namely absolute asymptotic stability (AAS) and shuffle asymptotic stability (SAS). We also extend these stability definitions to robust versions. We show that absolute asymptotic stability, robust absolute asymptotic stability and robust shuffle asymptotic stability are equivalent to exponential stability. In addition, by using the Kronecker product, we prove that a robust regular asymptotic stability problem is equivalent to the conjunction of several robust absolute asymptotic stability problems.},
+  number = {5},
+  journal = {IEEE Transactions on Automatic Control (TAC)},
+  author = {Wang, Yu and Roohi, Nima and Dullerud, Geir E. and Viswanathan, Mahesh},
+  year = {2017},
+  pages = {2568-2575}
+}
 
 @article{wang_StudyDynamicContact_2014,
   title = {A Study of Dynamic Contact Angles of Shear-Thickening Power-Law Fluids},
@@ -265,67 +208,29 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
   pages = {052103}
 }
 
-@inproceedings{wang_StabilityLinearAutonomous_2014,
-  title = {Stability of Linear Autonomous Systems under Regular Switching Sequences},
-  abstract = {In this work, we discuss the stability of a discrete-time linear autonomous system under regular switching sequences, whose switching sequences are generated by a Muller automaton. The asymptotic stability of this system, referred to as regular asymptotic stability, generalizes two well-known definitions of stability of autonomous discrete-time linear switched systems, namely absolute asymptotic stability (AAS) and shuffle asymptotic stability (SAS). We also extend these stability definitions to robust versions. We prove that absolute asymptotic stability, robust absolute asymptotic stability and robust shuffle asymptotic stability are equivalent to exponential stability. In addition, by using the Kronecker product, we prove that a robust regular asymptotic stability problem is equivalent to the conjunction of several robust absolute asymptotic stability problems.},
-  booktitle = {53rd {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Roohi, Nima and Dullerud, Geir E. and Viswanathan, Mahesh},
-  year = {2014},
-  pages = {5445-5450}
-}
-% == BibTeX quality report for wang_StabilityLinearAutonomous_2014:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@inproceedings{wang_VerifyingPCTLSpecifications_2020,
-  title = {Verifying {{PCTL}} Specifications on Markov Decision Processes via Reinforcement Learning},
-  abstract = {We propose a new statistical verification technique for PCTL\$\^*\$ logic, which unifies Probabilistic Computational Tree Logic (PCTL) and Linear Time Logic (LTL), on labeled Markov Decision Processes (MDPs) with unknown transition probabilities using reinforcement learning. We first show that verifying a non-nested PCTL\$\^*\$ formula on a MDP is equivalent to estimating the reachability probability of a goal set on the product MDP of the original MDP and a Muller automaton modeling the corresponding LTL specification. Then, we develop Q-learning algorithms to statistically estimate reachability probability on the product MDP, with the optimal policy identified and evaluated using the principle of optimism in the face of uncertainty (OFU). Specifically, we construct upper confidence bounds (UCB) for each state-action pair from previous samples, and explore the best action with the highest UCB. Using the OFU principle, we design termination conditions for any desired confidence level, and prove the correctness of the proposed algorithms. Finally, we evaluate the proposed algorithms on several case studies.},
-  booktitle = {21st {{International Conference}} on {{Verification}}, {{Model Checking}}, and {{Abstract Interpretation}} ({{VMCAI}}) ({{Under Review}})},
-  publisher = {{ACM}},
+@inproceedings{wang_StatisticalVerificationDynamical_2015,
+  title = {Statistical Verification of Dynamical Systems Using Set Oriented Methods},
+  abstract = {Modeling, analyzing and verifying real physical systems has long been a challenging task since the state space of the systems is usually infinite and the dynamics of the systems is generally nonlinear and stochastic. In this work, we employ an extension of linear temporal logic (LTL) to describe the behavior of discrete-time nonlinear stochastic systems; this extension is so-called linear inequality LTL (iLTL) which allows for atomic propositions that are linear inequalities on state spaces. To statistically verify iLTL formulas on the systems, we first reformulate discrete-time nonlinear stochastic dynamical systems into Markov processes on their continuous state spaces and then reduce them to discrete-time Markov chains (DTMC) using set-oriented methods. Furthermore, a statistical verification algorithm is proposed to verify iLTL formulas on the reduced systems. The correctness of this statistical verification algorithm is checked both by theoretical analysis and the simulation of a fluid problem. We will show in the successive work that the framework extends to hybrid systems, which is a significant motivation for the approach taken.},
+  booktitle = {18th {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
   author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2020}
+  year = {2015},
+  pages = {169--178}
 }
-% == BibTeX quality report for wang_VerifyingPCTLSpecifications_2020:
-% Missing required field 'pages'
-% ? Unsure about the formatting of the booktitle
+% == BibTeX quality report for wang_StatisticalVerificationDynamical_2015:
+% Missing required field 'publisher'
 
-@inproceedings{wang_HyperpropertiesRoboticsMotion_2020,
-  archivePrefix = {arXiv},
-  title = {Hyperproperties for Robotics: Motion Planning via {{HyperLTL}}},
-  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectively maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
-  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}}) ({{Under Review}})},
-  author = {Wang, Yu and Pajic, Miroslav},
-  year = {2020}
+@inproceedings{wang_DifferentialPrivacyMinimumvariance_2017,
+  title = {Differential Privacy and Minimum-Variance Unbiased Estimation in Multi-Agent Control Systems},
+  volume = {50},
+  abstract = {In a discrete-time linear multi-agent control system, where the agents are coupled via an environmental state, knowledge of the environmental state is desirable to control the agents locally. However, since the environmental state depends on the behavior of the agents, sharing it directly among these agents jeopardizes the privacy of the agents' profiles, defined as the combination of the agents' initial states and the sequence of local control inputs over time. A commonly used solution is to randomize the environmental state before sharing - this leads to a natural trade-off between the privacy of the agents' profiles and the variance of estimating the environmental state. By treating the multi-agent system as a probabilistic model of the environmental state parametrized by the agents' profiles, we show that when the agents' profiles is e-differentially private, there is a lower bound on the l1 induced norm of the covariance matrix of the minimum-variance unbiased estimator of the environmental state. This lower bound is achieved by a randomized mechanism that uses Laplace noise.},
+  booktitle = {20th {{IFAC World Congress}} ({{WC}}), {{IFAC}}-{{PapersOnLine}}},
+  author = {Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
+  year = {2017},
+  pages = {9521-9526}
 }
-% == BibTeX quality report for wang_HyperpropertiesRoboticsMotion_2020:
-% Missing required field 'pages'
+% == BibTeX quality report for wang_DifferentialPrivacyMinimumvariance_2017:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
-
-@inproceedings{bozkurt_ControlSynthesisLinear_2020,
-  archivePrefix = {arXiv},
-  title = {Control Synthesis from Linear Temporal Logic Specifications Using Model-Free Reinforcement Learning},
-  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectivelly maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
-  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}}) ({{Under Review}})},
-  author = {Bozkurt, Alper Kamil and Wang, Yu and Zavlanos, Michael and Pajic, Miroslav},
-  year = {2020}
-}
-% == BibTeX quality report for bozkurt_ControlSynthesisLinear_2020:
-% Missing required field 'pages'
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@article{wang_VerifyingStochasticHybrid_2019,
-  title = {Verifying Stochastic Hybrid Systems with Temporal Logic Specifications via {{Mori}}-{{Zwanzig}} Model Reduction},
-  abstract = {In this work, we study the problem of statistically verifying Probabilistic Computation Tree Logic (PCTL) formulas on discrete-time Markov chains (DTMCs) with stratified and antithetic samples. We show that by properly choosing the representation of the DTMCs, semantically negatively correlated samples can be generated for a fraction of PCTL formulas via the stratified or antithetic sampling techniques. Using stratified or antithetic samples, we propose statistical verification algorithms with asymptotic correctness guarantees based on sequential probability ratio tests, and show that these algorithms are more sample-efficient than the algorithms using independent Monte Carlo sampling. Finally, the efficiency of the statistical verification algorithm with stratified and antithetic samples is demonstrated by numerical experiments on several benchmarks.},
-  journal = {IEEE Transactions on Automatic Control (TAC) (Under Review)},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2019}
-}
-% == BibTeX quality report for wang_VerifyingStochasticHybrid_2019:
-% Missing required field 'number'
-% Missing required field 'pages'
-% Missing required field 'volume'
 
 @article{wang_LogisticFactorizationModel_2019,
   title = {A Logistic Factorization Model for Recommender Systems with Multinomial Responses},
@@ -350,55 +255,5 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
 % == BibTeX quality report for wang_StatisticalVerificationPCTL_2019:
 % Missing required field 'number'
 % Missing required field 'volume'
-
-@inproceedings{zarei_StatisticalVerificationLearningEnabled_2020,
-  title = {Statistical  {{Verification}}  of  {{Learning}}-{{Enabled}}  {{Controlled}}  {{Systems}}},
-  abstract = {The use of Neural Network (NN)-based controllers has attracted significant attentions in recent years. However, due to the complexity and non-linearity of such NN-based cyber-physical systems (CPS), existing verification techniques that employ exhaustive state-space search, face significant scalability challenges; this effectively limits their capability for analyzing real-world CPS. Consequently, in this work, we focus on the use of Statistical Model Checking (SMC) for verifying complex NN-controlled CPS. Using an SMC approach based on Clopper-Pearson confidence levels, we verify from samples specifications defined by Signal Temporal Logic (STL) formulas. Specifically, we consider three CPS benchmarks with varying levels of plant and controller complexity, as well as the type of considered STL properties -- reachability property for a mountain car, safety property for a bipedal robot, and control performance of the closed-loop magnet levitation system.
-On these benchmarks, we show that SMC methods can be successfully used to provide high-assurance for learning-based CPS.},
-  booktitle = {23rd {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}}) ({{Under Review}})},
-  publisher = {{ACM}},
-  author = {Zarei, Mojtaba and Wang, Yu and Pajic, Miroslav},
-  year = {2020}
-}
-% == BibTeX quality report for zarei_StatisticalVerificationLearningEnabled_2020:
-% Missing required field 'pages'
-% ? Title looks like it was stored in title-case in Zotero
-
-@inproceedings{roohi_STMCStatisticalModel_2020,
-  archivePrefix = {arXiv},
-  title = {{{STMC}}: {{Statistical Model Checker}} with {{Stratified}} and {{Antithetic Sampling}}},
-  copyright = {All rights reserved},
-  abstract = {STMC is a statistical model checker that uses 
-antithetic and stratified sampling techniques 
-to reduce the number of samples and, hence, 
-the amount of time required before making a decision. 
-The tool is capable of statistically verifying any  
-black-box probabilistic system that PRISM can simulate, 
-against probabilistic bounds on any property that PRISM 
-can evaluate over individual executions of the system. 
-We have evaluated our tool on many examples and compared 
-it with both symbolic and statistical algorithms. 
-Our experimental results show that our techniques 
-are indeed able to reduce the number of samples significantly. 
-When the number of strata is large, our algorithms 
-reduced the number of samples 336\% on average.
-Furthermore, being a statistical model checker makes STMC 
-able to verify models that are well beyond the reach of current 
-symbolic model checkers. 
-On large systems (up to 10e14 states) 
-STMC was able to check 100\% of benchmark systems, 
-compared to existing methods which only succeeded on 14\% of systems.
-The tool, installation instructions, benchmarks, and
-scripts for running the benchmarks are all available online
-as open source.},
-  booktitle = {International {{Conference}} on {{Tools}} and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} ({{TACAS}}) ({{Under Review}})},
-  author = {Roohi, Nima and Wang, Yu and West, Matthew and Dullerud, Geir E and Viswanathan, Mahesh},
-  year = {2020}
-}
-% == BibTeX quality report for roohi_STMCStatisticalModel_2020:
-% Missing required field 'pages'
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-% ? Title looks like it was stored in title-case in Zotero
 
 

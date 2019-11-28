@@ -1,11 +1,11 @@
 ---
-title: "Attack-Resilient Supervisory Control with Intermittently Secure Communication"
+title: "Attack-Resilient Supervisory Control of Discrete-Event Systems"
 date: 2019-01-01
-publishDate: 2019-11-13T00:53:51.842359Z
-authors: ["Yu Wang", "Miroslav Pajic"]
-publication_types: ["1"]
-abstract: "In this work, we study supervisory control of discrete event systems in the presence of network-based attacks on information delivered to and from the supervisors. The attacks are modeled by finite state transducers (FSTs), having the ability to nondeterministically rewrite a word to any word of a regular language. A desired language is called controllable if there exists a security-aware supervisor that ensures that the restricted language executed by the plant for any possible attack behavior is the desired one – we refer to such supervisors as attack-resilient. First, we solve the problem of computing the maximal controllable sub-language (MCSL) of a desired language and propose the design algorithm for an attackresilient supervisor, in scenarios where no security guarantees exists for communication between the plant and the supervisor. Then, we consider the case where the supervisor has active but intermittent access to a size-limited secure channel, which ensures integrity and availability of the data transmitted over it. Specifically, we propose the notion of accessibility as a measure of distance between a language and its sub-language, and show that a desired language is controllable with intermittently secure communication if and only if its difference from its MCSL without secure channel is bounded by the accessibility measure. Finally, we illustrate our approach on several examples."
-featured: false
-publication: "*58th IEEE Conference on Decision and Control (CDC)*"
+publishDate: 2019-11-28T23:30:43.960334Z
+authors: ["Yu Wang", "Alper Kamil Bozkurt", "Miroslav Pajic"]
+publication_types: ["2"]
+abstract: "In this work, we study the problem of supervisory control of discrete-event systems (DES) in the presence of attacks that tamper with inputs and outputs of the plant. We consider a very general system setup as we focus on both deterministic and nondeterministic plants that we model as finite state transducers (FSTs); this also covers the conventional approach to modeling DES as deterministic finite automata. Furthermore, we cover a wide class of attacks that can nondeterministically add, remove, or rewrite a sensing and/or actuation word to any word from predefined regular languages, and show how such attacks can be modeled by nondeterministic FSTs; we also present how the use of FSTs facilitates modeling realistic (and very complex) attacks, as well as provides the foundation for design of attack-resilient supervisory controllers. Specifically, we first consider the supervisory control problem for deterministic plants with attacks (i) only on their sensors, (ii) only on their actuators, and (iii) both on their sensors and actuators. For each case, we develop new conditions for controllability in the presence of attacks, as well as synthesizing algorithms to obtain FST-based description of such attack-resilient supervisors. A derived resilient controller provides a set of all safe control words that can keep the plant work desirably even in the presence of corrupted observation and/or if the control words are subjected to actuation attacks. Then, we extend the controllability theorems and the supervisor synthesizing algorithms to nondeterministic plants that satisfy a nonblocking condition. Finally, we illustrate applicability of our methodology on several examples and numerical case-studies."
+featured: true
+publication: "*IEEE Transactions on Automatic Control (TAC) (Under Review)*"
 ---
 
