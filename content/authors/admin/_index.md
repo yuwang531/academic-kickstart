@@ -23,6 +23,7 @@ bio: A theorist with recently-developed interest in system engineering.
 
 interests:
 - Autonomy
+- Control
 - Cyber Physical Security
 - Embedded Systems
 - Robotics
@@ -88,5 +89,8 @@ user_groups:
 - Visitors
 ---
 
-<!-- Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks. -->
+I am a postdoctoral associate at [Cyber-Physical Systems Lab](https://cpsl.pratt.duke.edu/) at Duke University. My research focuses on the analysis and design of high-assurance autonomy using control theory, formal method, statistical methods, and machine learning. 
 
+<span style="color:#f76497">
+I am on the academic job market this year!
+</span>
