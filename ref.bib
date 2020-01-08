@@ -52,19 +52,19 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@article{wang_StatisticalVerificationHyperproperties_2019,
+@inproceedings{wang_StatisticalVerificationHyperproperties_2019,
   archivePrefix = {arXiv},
   title = {Statistical Verification of Hyperproperties for Cyber-Physical Systems},
   copyright = {All rights reserved},
   abstract = {Many important properties of cyber-physical systems (CPS) are defined upon the relationship between multiple executions simultaneously in continuous time. Examples include probabilistic fairness and sensitivity to modeling errors (i.e., parameters changes) for real-valued signals. These requirements can only be specified by hyperproperties. In this work, we focus on verifying probabilistic hyperproperties for CPS. To cover a wide range of modeling formalisms, we first propose a general model of probabilistic uncertain systems (PUSs) that unify commonly studied CPS models such as continuous-time Markov chains (CTMCs) and probabilistically parametrized Hybrid I/O Automata. To formally specify hyperproperties, we propose a new temporal logic, hyper probabilistic signal temporal logic (HyperPSTL) that serves as a hyper and probabilistic version of the conventional signal temporal logic (STL). Considering complexity of real-world systems that can be captured as PUSs, we adopt a statistical model checking (SMC) approach for their verification. We develop a new SMC technique based on the direct computation of the significance levels of statistical assertions for HyperPSTL specifications, which requires no a priori knowledge on the indifference margin. Then, we introduce SMC algorithms for HyperPSTL specifications on the joint probabilistic distribution of multiple paths, as well as specifications with nested probabilistic operators quantifying different paths, which cannot be handled by existing SMC algorithms. Finally, we show the effectiveness of our SMC algorithms on CPS benchmarks with varying levels of complexity, including the Toyota Powertrain Control System.},
-  journal = {ACM Transactions on Embedded Computing Systems (TECS), part of the ESWEEK-TECS special issue, presented in the ACM SIGBED International Conference on Embedded Software (EMSOFT)},
+  booktitle = {{{ACM Transactions}} on {{Embedded Computing Systems}} ({{TECS}}), Part of the {{ESWEEK}}-{{TECS}} Special Issue, Presented in the {{ACM SIGBED International Conference}} on {{Embedded Software}} ({{EMSOFT}})},
   author = {Wang, Yu and Zarei, Mojtaba and Bonakdarpour, Borzoo and Pajic, Miroslav},
   year = {2019}
 }
 % == BibTeX quality report for wang_StatisticalVerificationHyperproperties_2019:
-% Missing required field 'number'
 % Missing required field 'pages'
-% Missing required field 'volume'
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
 
 @inproceedings{wang_MoriZwanzigMITLBased_2015,
   title = {A {{Mori}}-{{Zwanzig}} and {{MITL}} Based Approach to Statistical Verification of Continuous-Time Dynamical Systems},
@@ -255,5 +255,17 @@ We study the supervisory control problem in cases when attacks occur: (i) only o
 % == BibTeX quality report for wang_StatisticalVerificationPCTL_2019:
 % Missing required field 'number'
 % Missing required field 'volume'
+
+@inproceedings{zarei_StatisticalVerificationLearningenabled_2020,
+  title = {Statistical Verification of Learning-Enabled Controlled Systems},
+  abstract = {The use of Neural Network (NN)-based controllers has attracted significant attentions in recent years. However, due to the complexity and non-linearity of such NN-based cyber-physical systems (CPS), existing verification techniques that employ exhaustive state-space search, face significant scalability challenges; this effectively limits their capability for analyzing real-world CPS. Consequently, in this work, we focus on the use of Statistical Model Checking (SMC) for verifying complex NN-controlled CPS. Using an SMC approach based on Clopper-Pearson confidence levels, we verify from samples specifications defined by Signal Temporal Logic (STL) formulas. Specifically, we consider three CPS benchmarks with varying levels of plant and controller complexity, as well as the type of considered STL properties -- reachability property for a mountain car, safety property for a bipedal robot, and control performance of the closed-loop magnet levitation system.
+On these benchmarks, we show that SMC methods can be successfully used to provide high-assurance for learning-based CPS.},
+  booktitle = {23rd {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
+  author = {Zarei, Mojtaba and Wang, Yu and Pajic, Miroslav},
+  year = {2020}
+}
+% == BibTeX quality report for zarei_StatisticalVerificationLearningenabled_2020:
+% Missing required field 'pages'
+% Missing required field 'publisher'
 
 
