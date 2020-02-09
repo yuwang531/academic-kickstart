@@ -11,6 +11,6 @@ title = "News"
 
 <ul>
   <li>Two papers accepted to ICRA '20</li>
-  <li>Papers accepted to DISS '20</li>
-  <li>Papers accepted to HSCC '20</li>
+  <li>Paper accepted to DISS '20</li>
+  <li>Paper accepted to HSCC '20</li>
 </ul>
