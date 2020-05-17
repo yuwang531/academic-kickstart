@@ -91,6 +91,6 @@ user_groups:
 
 I am a postdoctoral associate at [Cyber-Physical Systems Lab](https://cpsl.pratt.duke.edu/) at Duke University. My research focuses on the analysis and design of high-assurance autonomy using control theory, formal method, statistical methods, and machine learning. 
 
-<span style="color:#f76497">
+<!-- <span style="color:#f76497">
 I am on the academic job market this year!
-</span>
+</span> -->
