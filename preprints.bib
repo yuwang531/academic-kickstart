@@ -1,103 +1,108 @@
 
-@inproceedings{wang_StatisticalModelChecking_2020,
-  archivePrefix = {arXiv},
-  title = {Statistical Model Checking for Hyperproperties},
-  copyright = {All rights reserved},
-  abstract = {In this paper, we propose the temporal logic HyperPCTL*  that extends PCTL  and HyperPCTL to reason about probabilistic hyperproperties. It allows expressing probabilistic hyperproperties with nested temporal and probability operators. We show that HyperPCTL* can express important probabilistic information-flow security policies. Furthermore, for the first time, we investigate statistical model checking (SMC) algorithms for HyperPCTL*  specifications in discrete-time Markov chains (DTMC). To this end, we first study SMC for HyperPCTL*  specifications with non-nested probability operators for a desired confidence or significance level. Unlike existing SMC algorithms which are based on sequential probability ratio tests (SPRT), we use the Clopper-Pearson confidence interval to avoid the need of a priori knowledge on the indifference margin. Then, we extend the proposed SMC algorithms to HyperPCTL*  specifications with multiple probability operators that are nested in different ways. Finally, we evaluate the proposed algorithms on two examples, dining cryptographers and probabilistic causation.},
-  booktitle = {International {{Conference}} on {{Tools}} and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} ({{TACAS}}) ({{Under Review}})},
-  author = {Wang, Yu and Nalluri, Siddhartha and Bonakdarpour, Borzoo and Pajic, Miroslav},
-  year = {2020}
-}
-% == BibTeX quality report for wang_StatisticalModelChecking_2020:
-% Missing required field 'pages'
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@article{wang_AttackresilientSupervisoryControl_2019,
-  archivePrefix = {arXiv},
-  title = {Attack-Resilient Supervisory Control of Discrete-Event Systems},
-  abstract = {In this work, we study the problem of supervisory control of discrete-event systems (DES) in the presence of attacks that tamper with inputs and outputs of the plant. We consider a very general system setup as we focus on both deterministic and nondeterministic plants that we model as finite state transducers (FSTs); this also covers the conventional approach to modeling DES as deterministic finite automata. Furthermore, we cover a wide class of attacks that can nondeterministically add, remove, or rewrite a sensing and/or actuation word to any word from predefined regular languages, and show how such attacks can be modeled by nondeterministic FSTs; we also present how the use of FSTs facilitates modeling realistic (and very complex) attacks, as well as provides the foundation for design of attack-resilient supervisory controllers. Specifically, we first consider the supervisory control problem for deterministic plants with attacks (i) only on their sensors, (ii) only on their actuators, and (iii) both on their sensors and actuators. For each case, we develop new conditions for controllability in the presence of attacks, as well as synthesizing algorithms to obtain FST-based description of such attack-resilient supervisors. A derived resilient controller provides a set of all safe control words that can keep the plant work desirably even in the presence of corrupted observation and/or if the control words are subjected to actuation attacks. Then, we extend the controllability theorems and the supervisor synthesizing algorithms to nondeterministic plants that satisfy a nonblocking condition. Finally, we illustrate applicability of our methodology on several examples and numerical case-studies.},
-  journal = {IEEE Transactions on Automatic Control (TAC) (Under Review)},
-  author = {Wang, Yu and Bozkurt, Alper Kamil and Pajic, Miroslav},
-  year = {2019}
-}
-% == BibTeX quality report for wang_AttackresilientSupervisoryControl_2019:
-% Missing required field 'number'
-% Missing required field 'pages'
-% Missing required field 'volume'
-
-@article{wang_VerifyingStochasticHybrid_2019,
-  title = {Verifying Stochastic Hybrid Systems with Temporal Logic Specifications via {{Mori}}-{{Zwanzig}} Model Reduction},
-  abstract = {In this work, we study the problem of statistically verifying Probabilistic Computation Tree Logic (PCTL) formulas on discrete-time Markov chains (DTMCs) with stratified and antithetic samples. We show that by properly choosing the representation of the DTMCs, semantically negatively correlated samples can be generated for a fraction of PCTL formulas via the stratified or antithetic sampling techniques. Using stratified or antithetic samples, we propose statistical verification algorithms with asymptotic correctness guarantees based on sequential probability ratio tests, and show that these algorithms are more sample-efficient than the algorithms using independent Monte Carlo sampling. Finally, the efficiency of the statistical verification algorithm with stratified and antithetic samples is demonstrated by numerical experiments on several benchmarks.},
-  journal = {IEEE Transactions on Automatic Control (TAC) (Under Review)},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2019}
-}
-% == BibTeX quality report for wang_VerifyingStochasticHybrid_2019:
-% Missing required field 'number'
-% Missing required field 'pages'
-% Missing required field 'volume'
-
-@inproceedings{wang_HyperpropertiesRoboticsMotion_2020,
-  archivePrefix = {arXiv},
-  title = {Hyperproperties for Robotics: Motion Planning via {{HyperLTL}}},
-  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectively maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
-  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}}) ({{Under Review}})},
-  author = {Wang, Yu and Pajic, Miroslav},
-  year = {2020}
-}
-% == BibTeX quality report for wang_HyperpropertiesRoboticsMotion_2020:
-% Missing required field 'pages'
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
 @inproceedings{bozkurt_ControlSynthesisLinear_2020,
-  archivePrefix = {arXiv},
   title = {Control Synthesis from Linear Temporal Logic Specifications Using Model-Free Reinforcement Learning},
-  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectively maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
-  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}}) ({{Under Review}})},
+  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
   author = {Bozkurt, Alper Kamil and Wang, Yu and Zavlanos, Michael and Pajic, Miroslav},
-  year = {2020}
+  year = {2020},
+  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectively maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
+  archivePrefix = {arXiv}
 }
 % == BibTeX quality report for bozkurt_ControlSynthesisLinear_2020:
 % Missing required field 'pages'
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@inproceedings{kim_SecurityAnalysisSpoofing_2020,
-  title = {Security Analysis against Spoofing Attacks for Distributed {{UAVs}}},
-  abstract = {Sensors and actuators are key control components of Unmanned Autonomous Vehicles (UAVs). UAVs use them in a feedback-based control loop with the software components to accomplish goals. Today, we know that UAVs are susceptible to multiple forms of sensor spoofing attacks such as false data injection via Man-in-the-Middle (MitM) attacks and counterfeit signal generation. In this paper we pose two questions (a) ``Can a group of networked, distributed, UAVs (i.e., swarm) provide protection against sensor spoofing attacks?'' and (b) ``can modeling swarms using data-driven techniques provide defense against sensor data injection attacks?''. Using Software-In-The-Loop (SITL) simulations, we analyze the feasibility of learning the behavior of a UAV using a deep learning model. We use robustness testing and feasibility of data augmentation using Generative Adversarial Networks (GANs) for this purpose.},
-  booktitle = {Decentralized {{IoT Systems}} and {{Security}}},
-  author = {Kim, Kyo Hyun and Nalluri, Siddhartha and Kashinath, Ashish and Wang, Yu and Mohan, Sibin and Pajic, Miroslav and Li, Bo},
-  year = {2020}
+@inproceedings{roohi_STMCStatisticalModel_2020,
+  title = {{{STMC}}: {{Statistical}} Model Checker with Stratified and Antithetic Sampling},
+  booktitle = {32nd {{International Conference}} on {{Computer}}-{{Aided Verification}} ({{CAV}})},
+  author = {Roohi, Nima and Wang, Yu and West, Matthew and Dullerud, Geir E and Viswanathan, Mahesh},
+  year = {2020},
+  pages = {18},
+  abstract = {STMC is a statistical model checker that uses antithetic and stratified sampling techniques to reduce the number of samples and, hence, the amount of time required before making a decision. The tool is capable of statistically verifying any black-box probabilistic system that PRISM can simulate, against probabilistic bounds on any property that PRISM can evaluate over individual executions of the system. We have evaluated our tool on many examples and compared it with both symbolic and statistical algorithms. When the number of strata is large, our algorithms reduced the number of samples 336\% on average. Furthermore, being a statistical model checker makes STMC able to verify models that are well beyond the reach of current symbolic model checkers. On large systems (up to 1014 states) STMC was able to check 100\% of benchmark systems, compared to existing methods which only succeeded on 14\% of systems. The tool, installation instructions, benchmarks, and scripts for running the benchmarks are all available online as open source.},
+  language = {en}
 }
-% == BibTeX quality report for kim_SecurityAnalysisSpoofing_2020:
+% == BibTeX quality report for roohi_STMCStatisticalModel_2020:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+
+@article{wang_AttackresilientSupervisoryControl_2019,
+  title = {Attack-Resilient Supervisory Control of Discrete-Event Systems},
+  author = {Wang, Yu and Bozkurt, Alper Kamil and Pajic, Miroslav},
+  year = {2019},
+  abstract = {In this work, we study the problem of supervisory control of discrete-event systems (DES) in the presence of attacks that tamper with inputs and outputs of the plant. We consider a very general system setup as we focus on both deterministic and nondeterministic plants that we model as finite state transducers (FSTs); this also covers the conventional approach to modeling DES as deterministic finite automata. Furthermore, we cover a wide class of attacks that can nondeterministically add, remove, or rewrite a sensing and/or actuation word to any word from predefined regular languages, and show how such attacks can be modeled by nondeterministic FSTs; we also present how the use of FSTs facilitates modeling realistic (and very complex) attacks, as well as provides the foundation for design of attack-resilient supervisory controllers. Specifically, we first consider the supervisory control problem for deterministic plants with attacks (i) only on their sensors, (ii) only on their actuators, and (iii) both on their sensors and actuators. For each case, we develop new conditions for controllability in the presence of attacks, as well as synthesizing algorithms to obtain FST-based description of such attack-resilient supervisors. A derived resilient controller provides a set of all safe control words that can keep the plant work desirably even in the presence of corrupted observation and/or if the control words are subjected to actuation attacks. Then, we extend the controllability theorems and the supervisor synthesizing algorithms to nondeterministic plants that satisfy a nonblocking condition. Finally, we illustrate applicability of our methodology on several examples and numerical case-studies.},
+  archivePrefix = {arXiv},
+  journal = {IEEE Transactions on Automatic Control (TAC) (Under Review)}
+}
+% == BibTeX quality report for wang_AttackresilientSupervisoryControl_2019:
+% Missing required field 'number'
+% Missing required field 'pages'
+% Missing required field 'volume'
+
+@inproceedings{wang_DifferentialPrivacySequential_2020,
+  title = {Differential {{Privacy}} for {{Sequential Algorithms}}},
+  booktitle = {59th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}}) ({{Under Review}})},
+  author = {Wang, Yu and Sibai, Hussein and Mitra, Sayan and Dullerud, Geir E},
+  year = {2020},
+  pages = {21},
+  abstract = {We study the differential privacy of sequential statistical inference and learning algorithms that are characterized by random termination time. Using the two examples: sequential probability ratio test and sequential empirical risk minimization, we show that the number of steps such algorithms execute before termination can jeopardize the differential privacy of the input data in a similar fashion as their outputs, and it is impossible to use the usual Laplace mechanism to achieve standard differentially private in these examples. To remedy this, we propose a notion of weak differential privacy and demonstrate its equivalence to the standard case for large i.i.d. samples. We show that using the Laplace mechanism, weak differential privacy can be achieved for both the sequential probability ratio test and the sequential empirical risk minimization with proper performance guarantees. Finally, we provide preliminary experimental results on the Breast Cancer Wisconsin (Diagnostic) and Landsat Satellite Data Sets from the UCI repository.},
+  language = {en}
+}
+% == BibTeX quality report for wang_DifferentialPrivacySequential_2020:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
+
+@inproceedings{wang_HyperpropertiesRoboticsMotion_2020,
+  title = {Hyperproperties for Robotics: Motion Planning via {{HyperLTL}}},
+  booktitle = {{{IEEE International Conference}} on {{Robotics}} and {{Automation}} ({{ICRA}})},
+  author = {Wang, Yu and Pajic, Miroslav},
+  year = {2020},
+  abstract = {We present a reinforcement learning (RL) framework to synthesize a control policy from a given linear temporal logic (LTL) specification in an unknown stochastic environment that can be modeled as a Markov Decision Process (MDP). Specifically, we learn a policy that maximizes the probability of satisfying the LTL formula without learning the transition probabilities. We introduce a novel rewarding and path-dependent discounting mechanism based on the LTL formula such that (i) an optimal policy maximizing the total discounted reward effectively maximizes the  probabilities of satisfying LTL objectives, and (ii) a model-free RL algorithm using these rewards and discount factors is guaranteed to converge to such policy. Finally, we illustrate the applicability of our RL-based synthesis approach on two motion planning case studies.},
+  archivePrefix = {arXiv}
+}
+% == BibTeX quality report for wang_HyperpropertiesRoboticsMotion_2020:
 % Missing required field 'pages'
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@inproceedings{wang_VerifyingPCTLSpecifications_2020a,
-  title = {Verifying {{PCTL}} Specifications on {{Markov}} Decision Processes via Reinforcement Learning},
-  abstract = {There is a growing literature on verifying temporal logic specifications using reinforcement learning on probabilistic systems with nondeterministic actions, e.g., Markov Decision Processes (MDPs), with unknown transition probabilities. In those works, the optimal policy for the satisfaction probability of a temporal logic specification is learned by optimizing a corresponding reward structure on a product MDP, derived by combining the dynamics of the initial MDP and that of the automata realizing the specification. In this work, we propose a new reinforcement learning method without using the product MDP technique to avoid the expansion of the state space. Specifically, we consider a variant of Probabilistic Computation Tree Logic (PCTL) that includes the (bounded and unbounded) until and release operators and allows reasoning over maximal/minimal satisfaction probability. This logic is verified on MDPs whose states are labeled deterministically by a set of atomic propositions. We first consider PCTL formulas with non-nested probability operators. For non-nested bounded-time PCTL specification, we use an upper-confidence-bound (UCB) Q-learning method to learn the optimal satisfaction probability of interest. The Q-learning is performed inductively on the time horizon, since the corresponding optimal policy can be memory-dependent. Then, we show that the verification technique for non-nested bounded-time specifications can be extended to handle non-nested unbounded-time specifications by finding a proper truncation time. To verify a nested PCTL specifications, a hierarchy of optimal policies corresponding to the nesting structure of the specifications is engaged; we propose a hierarchical Q-learning method to learn those policies simultaneously. Finally, we evaluate the proposed method on several case studies.},
-  language = {en},
+@inproceedings{wang_StatisticallyModelChecking_2020,
+  title = {Statistically {{Model Checking PCTL Specifications}} on {{Markov Decision Processes}} via {{Reinforcement Learning}}},
+  booktitle = {59th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}}) ({{Under Review}})},
   author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E},
   year = {2020},
-  pages = {21}
+  pages = {21},
+  abstract = {Probabilistic Computation Tree Logic (PCTL) is frequently used to formally specify control objectives such as probabilistic reachability and safety. In this work, we focus on model checking PCTL specifications statistically on Markov Decision Processes (MDPs) by sampling, e.g., checking whether there exists a feasible policy such that the probability of reaching certain goal states is greater than a threshold. We use reinforcement learning to search for such a feasible policy for PCTL specifications, and then develop a statistical model checking (SMC) method with provable guarantees on its error. Specifically, we first use upper-confidence-bound (UCB) based Q-learning to design an SMC algorithm for bounded-time PCTL specifications, and then extend this algorithm to unbounded-time specifications by identifying a proper truncation time by checking the PCTL specification and its negation at the same time. Finally, we evaluate the proposed method on case studies.},
+  language = {en}
 }
-% == BibTeX quality report for wang_VerifyingPCTLSpecifications_2020a:
-% Missing required field 'booktitle'
+% == BibTeX quality report for wang_StatisticallyModelChecking_2020:
 % Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{roohi_STMCStatisticalModel_2020a,
-  title = {{{STMC}}: {{Statistical}} Model Checker with Stratified and Antithetic Sampling},
-  abstract = {STMC is a statistical model checker that uses antithetic and stratified sampling techniques to reduce the number of samples and, hence, the amount of time required before making a decision. The tool is capable of statistically verifying any black-box probabilistic system that PRISM can simulate, against probabilistic bounds on any property that PRISM can evaluate over individual executions of the system. We have evaluated our tool on many examples and compared it with both symbolic and statistical algorithms. When the number of strata is large, our algorithms reduced the number of samples 336\% on average. Furthermore, being a statistical model checker makes STMC able to verify models that are well beyond the reach of current symbolic model checkers. On large systems (up to 1014 states) STMC was able to check 100\% of benchmark systems, compared to existing methods which only succeeded on 14\% of systems. The tool, installation instructions, benchmarks, and scripts for running the benchmarks are all available online as open source.},
-  language = {en},
-  author = {Roohi, Nima and Wang, Yu and West, Matthew and Dullerud, Geir E and Viswanathan, Mahesh},
+@inproceedings{wang_StatisticalModelChecking_2020,
+  title = {Statistical Model Checking for Hyperproperties},
+  booktitle = {International {{Conference}} on {{Tools}} and {{Algorithms}} for the {{Construction}} and {{Analysis}} of {{Systems}} ({{TACAS}}) ({{Under Review}})},
+  author = {Wang, Yu and Nalluri, Siddhartha and Bonakdarpour, Borzoo and Pajic, Miroslav},
   year = {2020},
-  pages = {18}
+  abstract = {In this paper, we propose the temporal logic HyperPCTL*  that extends PCTL  and HyperPCTL to reason about probabilistic hyperproperties. It allows expressing probabilistic hyperproperties with nested temporal and probability operators. We show that HyperPCTL* can express important probabilistic information-flow security policies. Furthermore, for the first time, we investigate statistical model checking (SMC) algorithms for HyperPCTL*  specifications in discrete-time Markov chains (DTMC). To this end, we first study SMC for HyperPCTL*  specifications with non-nested probability operators for a desired confidence or significance level. Unlike existing SMC algorithms which are based on sequential probability ratio tests (SPRT), we use the Clopper-Pearson confidence interval to avoid the need of a priori knowledge on the indifference margin. Then, we extend the proposed SMC algorithms to HyperPCTL*  specifications with multiple probability operators that are nested in different ways. Finally, we evaluate the proposed algorithms on two examples, dining cryptographers and probabilistic causation.},
+  archivePrefix = {arXiv},
+  copyright = {All rights reserved}
 }
-% == BibTeX quality report for roohi_STMCStatisticalModel_2020a:
-% Missing required field 'booktitle'
+% == BibTeX quality report for wang_StatisticalModelChecking_2020:
+% Missing required field 'pages'
 % Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+
+@article{wang_VerifyingStochasticHybrid_2019,
+  title = {Verifying Stochastic Hybrid Systems with Temporal Logic Specifications via {{Mori}}-{{Zwanzig}} Model Reduction},
+  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
+  year = {2019},
+  abstract = {In this work, we study the problem of statistically verifying Probabilistic Computation Tree Logic (PCTL) formulas on discrete-time Markov chains (DTMCs) with stratified and antithetic samples. We show that by properly choosing the representation of the DTMCs, semantically negatively correlated samples can be generated for a fraction of PCTL formulas via the stratified or antithetic sampling techniques. Using stratified or antithetic samples, we propose statistical verification algorithms with asymptotic correctness guarantees based on sequential probability ratio tests, and show that these algorithms are more sample-efficient than the algorithms using independent Monte Carlo sampling. Finally, the efficiency of the statistical verification algorithm with stratified and antithetic samples is demonstrated by numerical experiments on several benchmarks.},
+  journal = {IEEE Transactions on Automatic Control (TAC) (Under Review)}
+}
+% == BibTeX quality report for wang_VerifyingStochasticHybrid_2019:
+% Missing required field 'number'
+% Missing required field 'pages'
+% Missing required field 'volume'
 
 
