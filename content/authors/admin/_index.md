@@ -14,7 +14,7 @@ role: Postdoc
 
 # Organizations/Affiliations
 organizations:
-- name: Duke University
+- name: Duke **University**
   url: "https://ece.duke.edu/"
 
 # Short bio (displayed in user profile at end of posts)
