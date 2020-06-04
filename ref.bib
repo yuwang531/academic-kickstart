@@ -1,296 +1,443 @@
 
-@inproceedings{elfar_SecurityawareSynthesisUsing_2019,
-  title = {Security-Aware Synthesis Using Delayed-Action Games},
-  booktitle = {31st {{International Conference}} on {{Computer}}-{{Aided Verification}} ({{CAV}})},
-  author = {Elfar, Mahmoud and Wang, Yu and Pajic, Miroslav},
-  year = {2019},
-  abstract = {Stochastic multiplayer games (SMGs) have gained attention in the field of strategy synthesis for multi-agent reactive systems. However, standard SMGs are limited to modeling systems where all agents have full knowledge of the state of the game. In this paper, we introduce delayed-action games (DAGs) formalism that simulates hidden-information games (HIGs) as SMGs, by eliminating hidden information by delaying a player's actions. The elimination of hidden information enables the usage of SMG off-the-shelf model checkers to implement HIGs. Furthermore, we demonstrate how a DAG can be decomposed into a number of independent subgames. Since each subgame can be independently explored, parallel computation can be utilized to reduce the model checking time, while alleviating the state space explosion problem that SMGs are notorious for. In addition, we propose a DAG-based framework for strategy synthesis and analysis. Finally, we demonstrate applicability of the DAG-based synthesis framework on a case study of a human-on-the-loop unmanned-aerial vehicle system that may be under stealthy attack, where the proposed framework is used to formally model, analyze and synthesize security-aware strategies for the system.},
+@inproceedings{abate_BoxInvarianceBiologicallyinspired_2007,
+  title = {Box Invariance for Biologically-Inspired Dynamical Systems},
+  booktitle = {2007 46th {{IEEE Conference}} on {{Decision}} and {{Control}}},
+  author = {Abate, Alessandro and Tiwari, Ashish and Sastry, Shankar},
+  year = {2007},
+  pages = {5162--5167},
+  abstract = {In this paper, motivated by models drawn from biology, we introduce the notion of box invariant dynamical systems. We argue that box invariance, that is, the existence of a ``box''-shaped positively invariant region, is a characteristic of many biologically-inspired dynamical models. Box invariance is also useful for the verification of stability and safety properties of such systems. This paper presents effective characterization of this notion for some classes of systems, computational results on checking box invariance, the study of the dynamical properties it subsumes, and a comparison with related concepts in the literature. The concept is illustrated using models derived from different case studies in biology.},
+  language = {en}
+}
+% == BibTeX quality report for abate_BoxInvarianceBiologicallyinspired_2007:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+
+@article{amos_InputConvexNeural_2017,
+  title = {Input {{Convex Neural Networks}}},
+  author = {Amos, Brandon and Xu, Lei and Kolter, J. Zico},
+  year = {2017},
+  abstract = {This paper presents the input convex neural network architecture. These are scalar-valued (potentially deep) neural networks with constraints on the network parameters such that the output of the network is a convex function of (some of) the inputs. The networks allow for efficient inference via optimization over some inputs to the network given others, and can be applied to settings including structured prediction, data imputation, reinforcement learning, and others. In this paper we lay the basic groundwork for these models, proposing methods for inference, optimization and learning, and analyze their representational power. We show that many existing neural network architectures can be made inputconvex with a minor modification, and develop specialized optimization algorithms tailored to this setting. Finally, we highlight the performance of the methods on multi-label prediction, image completion, and reinforcement learning problems, where we show improvement over the existing state of the art in many cases.},
   archivePrefix = {arXiv},
-  copyright = {All rights reserved}
+  journal = {arXiv:1609.07152 [cs, math]},
+  language = {en},
+  primaryClass = {cs, math}
 }
-% == BibTeX quality report for elfar_SecurityawareSynthesisUsing_2019:
+% == BibTeX quality report for amos_InputConvexNeural_2017:
+% Missing required field 'number'
 % Missing required field 'pages'
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
+% Missing required field 'volume'
+% ? Possibly abbreviated journal title arXiv:1609.07152 [cs, math]
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{huang_ControllerSynthesisInductive_2015,
-  title = {Controller Synthesis with Inductive Proofs for Piecewise Linear Systems: {{An SMT}}-Based Algorithm},
-  booktitle = {54th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E. and Chaudhuri, Swarat},
-  year = {2015},
-  pages = {7434--7439},
-  abstract = {We present a controller synthesis algorithm for reach-avoid problems for piecewise linear discrete-time systems. Our algorithm relies on SMT solvers and in this paper we focus on piecewise constant control strategies. Our algorithm generates feedback control laws together with inductive proofs of unbounded time safety and progress properties with respect to the reach-avoid sets. Under a reasonable robustness assumption, the algorithm is shown to be complete. That is, it either generates a controller of the above type along with a proof of correctness, or it establishes the impossibility of the existence of such controllers. To achieve this, the algorithm iteratively attempts to solve a weakened and strengthened versions of the SMT encoding of the reach-avoid problem. We present preliminary experimental results on applying this algorithm based on a prototype implementation.}
+@article{angeli_MonotoneControlSystems_2002,
+  title = {Monotone Control Systems},
+  author = {Angeli, David and Sontag, Eduardo D.},
+  year = {2002},
+  volume = {48},
+  pages = {1684--1698},
+  abstract = {Monotone systems constitute one of the most important classes of dynamical systems used in mathematical biology modeling. The objective of this paper is to extend the notion of monotonicity to systems with inputs and outputs, a necessary first step in trying to understand interconnections, especially including feedback loops, built up out of monotone components. Basic definitions and theorems are provided, as well as an application to the study of a model of one of the cell's most important subsystems.},
+  journal = {IEEE Trans. Automat. Contr.}
 }
-% == BibTeX quality report for huang_ControllerSynthesisInductive_2015:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
+% == BibTeX quality report for angeli_MonotoneControlSystems_2002:
+% Missing required field 'number'
+% ? Possibly abbreviated journal title IEEE Trans. Automat. Contr.
 
-@inproceedings{huang_ControllerSynthesisLinear_2016,
-  title = {Controller Synthesis for Linear Dynamical Systems with Adversaries},
-  booktitle = {3rd {{ACM Symposium}} and {{Bootcamp}} on the {{Science}} of {{Security}} ({{HoTSoS}})},
-  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2016},
-  pages = {53--62},
-  abstract = {We present a controller synthesis algorithm for a reach-avoid problem in the presence of adversaries. Our model of the adversary abstractly captures typical malicious attacks envisioned on cyber-physical systems such as sensor spoofing, controller corruption, and actuator intrusion. After formulating the problem in a general setting, we present a sound and complete algorithm for the case with linear dynamics and an adversary with a budget on the total L2-norm of its actions. The algorithm relies on a result from linear control theory that enables us to decompose and compute the reachable states of the system in terms of a symbolic simulation of the adversary-free dynamics and the total uncertainty induced by the adversary. With this decomposition, the synthesis problem eliminates the universal quantifier on the adversary's choices and the symbolic controller actions can be effectively solved using an SMT solver. The constraints induced by the adversary are computed by solving second-order cone programmings. The algorithm is later extended to synthesize state-dependent controller and to generate attacks for the adversary. We present preliminary experimental results that show the effectiveness of this approach on several example problems.}
+@article{archer_ApplicationBackPropagation_1993,
+  title = {Application of the {{Back Propagation Neural Network Algorithm}} with {{Monotonicity Constraints}} for {{Two}}-{{Group Classification Problems}}},
+  author = {Archer, Norman P. and Wang, Shouhong},
+  year = {1993},
+  volume = {24},
+  pages = {60--75},
+  abstract = {Neural network techniques are widely used in solving pattern recognition or classification problems. However, when statistical data are used in supervised training of a neural network employing the back-propagation least mean square algorithm, the behavior of the classification boundary during training is often unpredictable. This research suggests the application of monotonicity constraints to the back propagation learning algorithm. When the training sample set is preprocessed by a linear classification function, neural network performance and efficiency can be improved in classification applications where the feature vector is related monotonically to the pattern vector. Since most classification problems in business possess monotonic properties, this technique is useful in those problems where any assumptions about the properties of the data are inappropriate.},
+  journal = {Decision Sciences},
+  language = {en},
+  number = {1}
 }
-% == BibTeX quality report for huang_ControllerSynthesisLinear_2016:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
+% == BibTeX quality report for archer_ApplicationBackPropagation_1993:
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{huang_CostDifferentialPrivacy_2014,
-  title = {On the Cost of Differential Privacy in Distributed Control Systems},
-  booktitle = {3rd {{International Conference}} on {{High Confidence Networked Systems}} ({{HiCoNS}})},
-  author = {Huang, Zhenqi and Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2014},
-  pages = {105--114},
-  copyright = {All rights reserved}
+@article{ben-david_MonotonicityMaintenanceInformationTheoretic_1995,
+  title = {Monotonicity {{Maintenance}} in {{Information}}-{{Theoretic Machine Learning Algorithms}}},
+  author = {{Ben-David}, Arie},
+  year = {1995},
+  volume = {19},
+  pages = {29--43},
+  abstract = {Decision trees that are based on information-theory are useful paradigms for learning from examples. However, in some real-world applications, known information-theoretic methods frequently generate nonmonotonic decision trees, in which objects with better attribute values are sometimes classified to lower classes than objects with inferior values. This property is undesirable for problem solving in many application domains, such as credit scoring and insurance premium determination, where monotonicity of subsequent classifications is important. An attribute-selection metric is proposed here that takes both the error as well as monotonicity into account while building decision trees. The metric is empirically shown capable of significantly reducing the degree of non-monotonicity of decision trees without sacrificing their inductive accuracy.},
+  journal = {Machine Learning},
+  language = {en},
+  number = {1}
 }
-% == BibTeX quality report for huang_CostDifferentialPrivacy_2014:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
+% == BibTeX quality report for ben-david_MonotonicityMaintenanceInformationTheoretic_1995:
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{kim_SecurityAnalysisSpoofing_2020,
-  title = {Security Analysis against Spoofing Attacks for Distributed {{UAVs}}},
-  booktitle = {Workshop on {{Decentralized IoT Systems}} and {{Security}} ({{DISS}})},
-  author = {Kim, Kyo Hyun and Nalluri, Siddhartha and Kashinath, Ashish and Wang, Yu and Mohan, Sibin and Pajic, Miroslav and Li, Bo},
-  year = {2020},
-  abstract = {Sensors and actuators are key control components of Unmanned Autonomous Vehicles (UAVs). UAVs use them in a feedback-based control loop with the software components to accomplish goals. Today, we know that UAVs are susceptible to multiple forms of sensor spoofing attacks such as false data injection via Man-in-the-Middle (MitM) attacks and counterfeit signal generation. In this paper we pose two questions (a) ``Can a group of networked, distributed, UAVs (i.e., swarm) provide protection against sensor spoofing attacks?'' and (b) ``can modeling swarms using data-driven techniques provide defense against sensor data injection attacks?''. Using Software-In-The-Loop (SITL) simulations, we analyze the feasibility of learning the behavior of a UAV using a deep learning model. We use robustness testing and feasibility of data augmentation using Generative Adversarial Networks (GANs) for this purpose.}
-}
-% == BibTeX quality report for kim_SecurityAnalysisSpoofing_2020:
-% Missing required field 'pages'
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@inproceedings{roohi_StatisticalVerificationToyota_2017,
-  title = {Statistical Verification of the {{Toyota}} Powertrain Control Verification Benchmark},
-  booktitle = {20th {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
-  author = {Roohi, Nima and Wang, Yu and West, Matthew and Dullerud, Geir E. and Viswanathan, Mahesh},
-  year = {2017},
-  pages = {65--70},
-  abstract = {The Toyota Powertrain Control Verification Benchmark has been recently proposed as challenge problems that capture features of realistic automotive designs. In this paper we statistically verify the most complicated of the powertrain control models proposed, that includes features like delayed differential and difference equations, look-up tables, and highly non-linear dynamics, by simulating the C++ code generated from the SimulinkTM model of the design. Our results show that for at least 98\% of the possible initial operating conditions the desired properties hold. These are the first verification results for this model, statistical or otherwise.}
-}
-% == BibTeX quality report for roohi_StatisticalVerificationToyota_2017:
-% Missing required field 'publisher'
-
-@inproceedings{wang_AttackresilientSupervisoryControl_2019a,
-  title = {Attack-Resilient Supervisory Control with Intermittently Secure Communication},
-  booktitle = {58th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Pajic, Miroslav},
+@incollection{chang_NeuralLyapunovControl_2019,
+  title = {Neural {{Lyapunov Control}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 32},
+  author = {Chang, Ya-Chien and Roohi, Nima and Gao, Sicun},
   year = {2019},
-  pages = {2015--2020},
-  abstract = {In this work, we study supervisory control of discrete event systems in the presence of network-based attacks on information delivered to and from the supervisors. The attacks are modeled by finite state transducers (FSTs), having the ability to nondeterministically rewrite a word to any word of a regular language. A desired language is called controllable if there exists a security-aware supervisor that ensures that the restricted language executed by the plant for any possible attack behavior is the desired one \textendash{} we refer to such supervisors as attack-resilient. First, we solve the problem of computing the maximal controllable sub-language (MCSL) of a desired language and propose the design algorithm for an attackresilient supervisor, in scenarios where no security guarantees exists for communication between the plant and the supervisor. Then, we consider the case where the supervisor has active but intermittent access to a size-limited secure channel, which ensures integrity and availability of the data transmitted over it. Specifically, we propose the notion of accessibility as a measure of distance between a language and its sub-language, and show that a desired language is controllable with intermittently secure communication if and only if its difference from its MCSL without secure channel is bounded by the accessibility measure. Finally, we illustrate our approach on several examples.}
+  pages = {3240--3249}
 }
-% == BibTeX quality report for wang_AttackresilientSupervisoryControl_2019a:
+% == BibTeX quality report for chang_NeuralLyapunovControl_2019:
+% Missing required field 'publisher'
+% ? Title looks like it was stored in title-case in Zotero
+
+@inproceedings{chen_TaylorModelFlowpipe_2012,
+  title = {Taylor {{Model Flowpipe Construction}} for {{Non}}-Linear {{Hybrid Systems}}},
+  booktitle = {2012 {{IEEE}} 33rd {{Real}}-{{Time Systems Symposium}}},
+  author = {Chen, Xin and {\'A}brah{\'a}m, Erika and Sankaranarayanan, Sriram},
+  year = {2012},
+  pages = {183--192},
+  abstract = {We propose an approach for verifying non-linear hybrid systems using higher-order Taylor models that are a combination of bounded degree polynomials over the initial conditions and time, bloated by an interval. Taylor models are an effective means for computing rigorous bounds on the complex time trajectories of non-linear differential equations. As a result, Taylor models have been successfully used to verify properties of non-linear continuous systems. However, the handling of discrete (controller) transitions remains a challenging problem. In this paper, we provide techniques for handling the effect of discrete transitions on Taylor model flow pipe construction. We explore various solutions based on two ideas: domain contraction and range over-approximation. Instead of explicitly computing the intersection of a Taylor model with a guard set, domain contraction makes the domain of a Taylor model smaller by cutting away parts for which the intersection is empty. It is complemented by range over-approximation that translates Taylor models into commonly used representations such as template polyhedra or zonotopes, on which intersections with guard sets have been previously studied. We provide an implementation of the techniques described in the paper and evaluate the various design choices over a set of challenging benchmarks.}
+}
+% == BibTeX quality report for chen_TaylorModelFlowpipe_2012:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
 
-@inproceedings{wang_DifferentiallyPrivateObjective_2016,
-  title = {Differentially Private Objective Functions in Distributed Cloud-Based Optimization},
-  booktitle = {55th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Hale, Matthew, Hale and Egerstedt, Magnus and Dullerud, Geir E.},
+@article{chilinski_NeuralLikelihoodsCumulative_2018,
+  title = {Neural {{Likelihoods}} via {{Cumulative Distribution Functions}}},
+  author = {Chilinski, Pawel and Silva, Ricardo},
+  year = {2018},
+  abstract = {We leverage neural networks as universal approximators of monotonic functions to build a parameterization of conditional cumulative distribution functions. By a modification of backpropagation as applied both to parameters and outputs, we show that we are able to build black box density estimators which are competitive against recently proposed models, while avoiding assumptions concerning the base distribution in a mixture model. That is, it makes no use of parametric models as building blocks. This approach removes some undesirable degrees of freedom on the design on neural networks for flexible conditional density estimation, while implementation can be easily accomplished by standard algorithms readily available in popular neural network toolboxes.},
+  archivePrefix = {arXiv},
+  journal = {arXiv:1811.00974 [cs, stat]},
+  language = {en},
+  primaryClass = {cs, stat}
+}
+% == BibTeX quality report for chilinski_NeuralLikelihoodsCumulative_2018:
+% Missing required field 'number'
+% Missing required field 'pages'
+% Missing required field 'volume'
+% ? Possibly abbreviated journal title arXiv:1811.00974 [cs, stat]
+% ? Title looks like it was stored in title-case in Zotero
+
+@inproceedings{coogan_EfficientFiniteAbstraction_2015,
+  title = {Efficient Finite Abstraction of Mixed Monotone Systems},
+  booktitle = {Proceedings of the 18th {{International Conference}} on {{Hybrid Systems Computation}} and {{Control}} - {{HSCC}} '15},
+  author = {Coogan, Samuel and Arcak, Murat},
+  year = {2015},
+  pages = {58--67},
+  abstract = {We present an efficient computational procedure for finite abstraction of discrete-time mixed monotone systems by considering a rectangular partition of the state space. Mixed monotone systems are decomposable into increasing and decreasing components, and significantly generalize the well known class of monotone systems. We tightly overapproximate the one-step reachable set from a box of initial conditions by computing a decomposition function at only two points, regardless of the dimension of the state space. We apply our results to verify the dynamical behavior of a model for insect population dynamics and to synthesize a signaling strategy for a traffic network.},
+  language = {en}
+}
+% == BibTeX quality report for coogan_EfficientFiniteAbstraction_2015:
+% Missing required field 'publisher'
+
+@article{costantino_ExperimentallyInducedTransitions_1995,
+  title = {Experimentally Induced Transitions in the Dynamic Behaviour of Insect Populations},
+  author = {Costantino, R. F. and Cushing, J. M. and Dennis, Brian and Desharnais, Robert A.},
+  year = {1995},
+  volume = {375},
+  pages = {227--230},
+  abstract = {SIMPLE nonlinear models can generate fixed points, periodic cycles and aperiodic oscillations in population abundance without any external environmental variation. Another familiar theoretical result is that shifts in demographic parameters (such as survival or fecundity) can move a population from one of these behaviours to another1\textendash 4. Unfortunately, empirical evidence to support these theoretical possibilities is scarce5\textendash 15. We report here a joint theoretical and experimental study to test the hypothesis that changes in demographic parameters cause predictable changes in the nature of population fluctuations. Specifically, we developed a simple model describing population growth in the flour beetle Tribolium16. We then predicted, using standard mathematical techniques to analyse the model, that changes in adult mortality would produce substantial shifts in population dynamic behaviour. Finally, by experimentally manipulating the adult mortality rate we observed changes in the dynamics from stable fixed points to periodic cycles to aperiodic oscillations that corresponded to the transitions forecast by the mathematical model.},
+  copyright = {1995 Nature Publishing Group},
+  journal = {Nature},
+  language = {en},
+  number = {6528}
+}
+
+@inproceedings{dang_AccurateHybridizationNonlinear_2010,
+  title = {Accurate Hybridization of Nonlinear Systems},
+  booktitle = {Proceedings of the 13th {{ACM}} International Conference on {{Hybrid}} Systems: Computation and Control - {{HSCC}} '10},
+  author = {Dang, Thao and Maler, Oded and Testylier, Romain},
+  year = {2010},
+  pages = {11},
+  abstract = {This paper is concerned with reachable set computation for non-linear systems using hybridization. The essence of hybridization is to approximate a non-linear vector field by a simpler (such as affine) vector field. This is done by partitioning the state space into small regions within each of which a simpler vector field is defined. This approach relies on the availability of methods for function approximation and for handling the resulting dynamical systems. Concerning function approximation using interpolation, the accuracy depends on the shapes and sizes of the regions which can compromise as well the speed of reachability computation since it may generate spurious classes of trajectories. In this paper we study the relationship between the region geometry and reachable set accuracy and propose a method for constructing hybridization regions using tighter interpolation error bounds. In addition, our construction exploits the dynamics of the system to adapt the orientation of the regions, in order to achieve better time-efficiency. We also present some experimental results on a high-dimensional biological system, to demonstrate the performance improvement.},
+  language = {en}
+}
+% == BibTeX quality report for dang_AccurateHybridizationNonlinear_2010:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+
+@article{daniels_MonotonePartiallyMonotone_2010,
+  title = {Monotone and {{Partially Monotone Neural Networks}}},
+  author = {Daniels, Hennie and Velikova, Marina},
+  year = {2010},
+  volume = {21},
+  pages = {906--917},
+  abstract = {In many classification and prediction problems it is known that the response variable depends on certain explanatory variables. Monotone neural networks can be used as powerful tools to build monotone models with better accuracy and lower variance compared to ordinary nonmonotone models. Monotonicity is usually obtained by putting constraints on the parameters of the network. In this paper, we will clarify some of the theoretical results on monotone neural networks with positive weights, issues that are sometimes misunderstood in the neural network literature. Furthermore, we will generalize some of the results obtained by Sill for the so-called MIN\textendash MAX networks to the case of partially monotone problems. The method is illustrated in practical case studies.},
+  journal = {IEEE Transactions on Neural Networks},
+  language = {en},
+  number = {6}
+}
+% == BibTeX quality report for daniels_MonotonePartiallyMonotone_2010:
+% ? Title looks like it was stored in title-case in Zotero
+
+@inproceedings{fard_FastFlexibleMonotonic_2016,
+  title = {Fast and {{Flexible Monotonic Functions}} with {{Ensembles}} of {{Lattices}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Fard, Mahdi Milani and Canini, Kevin and Cotter, Andrew and Pfeifer, Jan and Gupta, Maya},
   year = {2016},
-  pages = {3688--3694},
-  abstract = {In this work, we study the problem of keeping the objective functions of individual agents {$\epsilon$}-differentially private in cloud-based distributed optimization, where agents are subject to global constraints and seek to minimize local objective functions. The communication architecture between agents is cloud-based - instead of communicating directly with each other, they coordinate by sharing states through a trusted cloud computer. In this problem, the difficulty is twofold: the objective functions are used repeatedly in every iteration, and the influence of perturbing them extends to other agents and lasts over time. To solve the problem, we analyze the propagation of perturbations on objective functions over time, and derive an upper bound on them. With the upper bound, we design a noise-adding mechanism that randomizes the cloud-based distributed optimization algorithm to keep the individual objective functions {$\epsilon$}-differentially private. In addition, we study the trade-off between the privacy of objective functions and the performance of the new cloud-based distributed optimization algorithm with noise. We present simulation results to numerically verify the theoretical results presented.}
+  pages = {2919--2927},
+  abstract = {For many machine learning problems, there are some inputs that are known to be positively (or negatively) related to the output, and in such cases training the model to respect that monotonic relationship can provide regularization, and makes the model more interpretable. However, flexible monotonic functions are computationally challenging to learn beyond a few features. We break through this barrier by learning ensembles of monotonic calibrated interpolated look-up tables (lattices). A key contribution is an automated algorithm for selecting feature subsets for the ensemble base models. We demonstrate that compared to random forests, these ensembles produce similar or better accuracy, while providing guaranteed monotonicity consistent with prior knowledge, smaller model size and faster evaluation.},
+  language = {en}
 }
-% == BibTeX quality report for wang_DifferentiallyPrivateObjective_2016:
+% == BibTeX quality report for fard_FastFlexibleMonotonic_2016:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
 
-@article{wang_DifferentialPrivacyLinear_2017,
-  title = {Differential Privacy in Linear Distributed Control Systems: {{Entropy}} Minimizing Mechanisms and Performance Tradeoffs},
-  author = {Wang, Yu and Huang, Zhenqi and Mitra, Sayan and Dullerud, Geir E.},
+@article{garcia_MoNGELMonotonicNested_2017,
+  title = {{{MoNGEL}}: Monotonic Nested Generalized Exemplar Learning},
+  author = {Garc{\'i}a, Javier and Fardoun, Habib M. and Alghazzawi, Daniyal M. and Cano, Jos{\'e}-Ram{\'o}n and Garc{\'i}a, Salvador},
   year = {2017},
+  volume = {20},
+  pages = {441--452},
+  journal = {Pattern Analysis and Applications},
+  language = {en},
+  number = {2}
+}
+
+@article{gupta_HowIncorporateMonotonicity_2019,
+  title = {How to {{Incorporate Monotonicity}} in {{Deep Networks While Preserving Flexibility}}?},
+  author = {Gupta, Akhil and Shukla, Naman and Marla, Lavanya and Kolbeinsson, Arinbj{\"o}rn and Yellepeddi, Kartik},
+  year = {2019},
+  abstract = {The importance of domain knowledge in enhancing model performance and making reliable predictions in the real-world is critical. This has led to an increased focus on specific model properties for interpretability. We focus on incorporating monotonic trends, and propose a novel gradient-based point-wise loss function for enforcing partial monotonicity with deep neural networks. While recent developments have relied on structural changes to the model, our approach aims at enhancing the learning process. Our model-agnostic point-wise loss function acts as a plug-in to the standard loss and penalizes non-monotonic gradients. We demonstrate that the point-wise loss produces comparable (and sometimes better) results on both AUC and monotonicity measure, as opposed to state-of-the-art deep lattice networks that guarantee monotonicity. Moreover, it is able to learn differentiated individual trends and produces smoother conditional curves which are important for personalized decisions, while preserving the flexibility of deep networks.},
+  archivePrefix = {arXiv},
+  journal = {arXiv:1909.10662 [cs]},
+  language = {en},
+  primaryClass = {cs}
+}
+% == BibTeX quality report for gupta_HowIncorporateMonotonicity_2019:
+% Missing required field 'number'
+% Missing required field 'pages'
+% Missing required field 'volume'
+% ? Possibly abbreviated journal title arXiv:1909.10662 [cs]
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{gupta_MonotonicCalibratedInterpolated_2016,
+  title = {Monotonic {{Calibrated Interpolated Look}}-{{Up Tables}}},
+  author = {Gupta, Maya and Cotter, Andrew and Pfeifer, Jan and Voevodski, Konstantin and Canini, Kevin and Mangylov, Alexander and Moczydlowski, Wojciech and {van Esbroeck}, Alexander},
+  year = {2016},
+  pages = {47},
+  abstract = {Real-world machine learning applications may have requirements beyond accuracy, such as fast evaluation times and interpretability. In particular, guaranteed monotonicity of the learned function with respect to some of the inputs can be critical for user confidence. We propose meeting these goals for low-dimensional machine learning problems by learning flexible, monotonic functions using calibrated interpolated look-up tables. We extend the structural risk minimization framework of lattice regression to monotonic functions by adding linear inequality constraints. In addition, we propose jointly learning interpretable calibrations of each feature to normalize continuous features and handle categorical or missing data, at the cost of making the objective non-convex. We address large-scale learning through parallelization, mini-batching, and random sampling of additive regularizer terms. Case studies on real-world problems with up to sixteen features and up to hundreds of millions of training samples demonstrate the proposed monotonic functions can achieve state-of-the-art accuracy in practice while providing greater transparency to users.},
+  language = {en}
+}
+% == BibTeX quality report for gupta_MonotonicCalibratedInterpolated_2016:
+% Missing required field 'journal'
+% Missing required field 'number'
+% Missing required field 'volume'
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{hirsch_MonotoneDynamicalSystems_2006,
+  title = {Monotone {{Dynamical Systems}}},
+  author = {Hirsch, M W and Smith, Hal},
+  year = {2006},
+  volume = {2},
+  pages = {239--357},
+  journal = {Handbook of differential equations: ordinary differential equations},
+  language = {en}
+}
+% == BibTeX quality report for hirsch_MonotoneDynamicalSystems_2006:
+% Missing required field 'number'
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{hirsch_MonotoneMapsReview_2005,
+  title = {Monotone Maps: A Review},
+  author = {Hirsch, M. W. and Smith, Hal},
+  year = {2005},
+  volume = {11},
+  pages = {379--398},
+  abstract = {The aim of this paper is to provide a brief review of the main results in the theory of discrete-time monotone dynamics.},
+  journal = {Journal of Difference Equations and Applications},
+  language = {en},
+  number = {4-5}
+}
+
+@article{hu_DesignGeneralProjection_2007,
+  title = {Design of {{General Projection Neural Networks}} for {{Solving Monotone Linear Variational Inequalities}} and {{Linear}} and {{Quadratic Optimization Problems}}},
+  author = {Hu, Xiaolin and Wang, Jun},
+  year = {2007},
+  volume = {37},
+  pages = {1414--1421},
+  abstract = {Most existing neural networks for solving linear variational inequalities (LVIs) with the mapping Mx + p require positive definiteness (or positive semidefiniteness) of M. In this correspondence, it is revealed that this condition is sufficient but not necessary for an LVI being strictly monotone (or monotone) on its constrained set where equality constraints are present. Then, it is proposed to reformulate monotone LVIs with equality constraints into LVIs with inequality constraints only, which are then possible to be solved by using some existing neural networks. General projection neural networks are designed in this correspondence for solving the transformed LVIs. Compared with existing neural networks, the designed neural networks feature lower model complexity. Moreover, the neural networks are guaranteed to be globally convergent to solutions of the LVI under the condition that the linear mapping Mx + p is monotone on the constrained set. Because quadratic and linear programming problems are special cases of LVI in terms of solutions, the designed neural networks can solve them efficiently as well. In addition, it is discovered that the designed neural network in a specific case turns out to be the primal-dual network for solving quadratic or linear programming problems. The effectiveness of the neural networks is illustrated by several numerical examples.},
+  journal = {IEEE Transactions on Systems, Man and Cybernetics, Part B (Cybernetics)},
+  language = {en},
+  number = {5}
+}
+% == BibTeX quality report for hu_DesignGeneralProjection_2007:
+% ? Title looks like it was stored in title-case in Zotero
+
+@inproceedings{kolter_LearningStableDeep_2019,
+  title = {Learning {{Stable Deep Dynamics Models}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Kolter, J Zico and Manek, Gaurav},
+  year = {2019},
+  pages = {11126--11134},
+  abstract = {Deep networks are commonly used to model dynamical systems, predicting how the state of a system will evolve over time (either autonomously or in response to control inputs). Despite the predictive power of these systems, it has been difficult to make formal claims about the basic properties of the learned systems. In this paper, we propose an approach for learning dynamical systems that are guaranteed to be stable over the entire state space. The approach works by jointly learning a dynamics model and Lyapunov function that guarantees non-expansiveness of the dynamics under the learned Lyapunov function. We show that such learning systems are able to model simple dynamical systems and can be combined with additional deep generative models to learn complex dynamics, such as video textures, in a fully end-to-end fashion.},
+  language = {en}
+}
+% == BibTeX quality report for kolter_LearningStableDeep_2019:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{leenheer_MonotoneChemicalReaction_2007,
+  title = {Monotone {{Chemical Reaction Networks}}},
+  author = {Leenheer, Patrick De and Angeli, David and Sontag, Eduardo D.},
+  year = {2007},
+  volume = {41},
+  pages = {295--314},
+  abstract = {We analyze certain chemical reaction networks and show that every solution converges to some steady state. The reaction kinetics are assumed to be monotone but otherwise arbitrary. When diffusion effects are taken into account, the conclusions remain unchanged. The main tools used in our analysis come from the theory of monotone dynamical systems. We review some of the features of this theory and provide a self-contained proof of a particular attractivity result which is used in proving our main result.},
+  journal = {Journal of Mathematical Chemistry},
+  language = {en},
+  number = {3}
+}
+% == BibTeX quality report for leenheer_MonotoneChemicalReaction_2007:
+% ? Title looks like it was stored in title-case in Zotero
+
+@inproceedings{liang_WhyDeepNeural_2017,
+  title = {Why {{Deep Neural Networks}} for {{Function Approximation}}?},
+  booktitle = {The 5th {{International Conference}} on {{Learning Representations}}},
+  author = {Liang, Shiyu and Srikant, R.},
+  year = {2017},
+  abstract = {Recently there has been much interest in understanding why deep neural networks are preferred to shallow networks. We show that, for a large class of piecewise smooth functions, the number of neurons needed by a shallow network to approximate a function is exponentially larger than the corresponding number of neurons needed by a deep network for a given degree of function approximation. First, we consider univariate functions on a bounded interval and require a neural network to achieve an approximation error of {$\epsilon$} uniformly over the interval. We show that shallow networks (i.e., networks whose depth does not depend on {$\epsilon$}) require {$\Omega$}(poly(1/{$\epsilon$})) neurons while deep networks (i.e., networks whose depth grows with 1/{$\epsilon$}) require O(polylog(1/{$\epsilon$})) neurons. We then extend these results to certain classes of important multivariate functions. Our results are derived for neural networks which use a combination of rectifier linear units (ReLUs) and binary step units, two of the most popular type of activation functions. Our analysis builds on a simple observation: the multiplication of two bits can be represented by a ReLU.},
+  archivePrefix = {arXiv},
+  language = {en}
+}
+% == BibTeX quality report for liang_WhyDeepNeural_2017:
+% Missing required field 'pages'
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{mukarjee_FeasibleNonparametricEstimation_1994,
+  title = {Feasible {{Nonparametric Estimation}} of {{Multiargument Monotone Functions}}},
+  author = {Mukarjee, Hari and Stern, Steven},
+  year = {1994},
+  volume = {89},
+  pages = {77--80},
+  abstract = {This article presents a two-stage estimation procedure that uses an ad hoc but very easily implemented isotonization of a kernel estimator. This procedure yields an isotonic estimator with the convergence properties of the kernel estimator. Although the isotonization in the second stage does not satisfy the least squares condition, this hybrid estimator may be considered to be a multidimensional generalization of similar procedures for the one-dimensional case suggested by Friedman and Tibshirani and by Mukarjee. We derive some of the asymptotic properties of our estimator and demonstrate other statistical properties with Monte Carlo studies. We conclude by providing a real data example.},
+  journal = {Journal of the American Statistical Association},
+  number = {425}
+}
+% == BibTeX quality report for mukarjee_FeasibleNonparametricEstimation_1994:
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{neumann_ReliableIntegrationContinuous_2013,
+  title = {Reliable Integration of Continuous Constraints into Extreme Learning Machines},
+  author = {Neumann, Klaus and Rolf, Matthias and Steil, Jochen J.},
+  year = {2013},
+  volume = {21},
+  pages = {35--50},
+  abstract = {The application of machine learning methods in the engineering of intelligent technical systems often requires the integration of continuous constraints like positivity, monotonicity, or bounded curvature in the learned function to guarantee a reliable performance. We show that the extreme learning machine is particularly well suited for this task. Constraints involving arbitrary derivatives of the learned function are effectively implemented through quadratic optimization because the learned function is linear in its parameters, and derivatives can be derived analytically. We further provide a constructive approach to verify that discretely sampled constraints are generalized to continuous regions and show how local violations of the constraint can be rectified by iterative re-learning. We demonstrate the approach on a practical and challenging control problem from robotics, illustrating also how the proposed method enables learning from few data samples if additional prior knowledge about the problem is...},
+  journal = {International Journal of Uncertainty, Fuzziness and Knowledge Based Systems},
+  number = {supp02}
+}
+
+@inproceedings{pan_LearningDeepNeural_2017,
+  title = {Learning {{Deep Neural Network Control Policies}} for {{Agile Off}}-{{Road Autonomous Driving}}},
+  booktitle = {The {{NIPS Deep Reinforcement Learning Symposium}}},
+  author = {Pan, Yunpeng and Cheng, Ching-An and Saigol, Kamil and Lee, Keuntaek and Yan, Xinyan and Theodorou, Evangelos and Boots, Byron},
+  year = {2017},
+  pages = {13},
+  abstract = {We present an end-to-end learning system for agile, off-road autonomous driving using only low-cost on-board sensors. By imitating an optimal controller, we train a deep neural network control policy to map raw, high-dimensional observations to continuous steering and throttle commands, the latter of which is essential to successfully drive on varied terrain at high speed. Compared with recent approaches to similar tasks, our method requires neither state estimation nor online planning to navigate the vehicle. Real-world experimental results demonstrate successful autonomous driving, matching the state-of-the-art performance.},
+  language = {en}
+}
+% == BibTeX quality report for pan_LearningDeepNeural_2017:
+% Missing required field 'publisher'
+% ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
+
+@article{potharst_ClassificationTreesProblems_2002,
+  title = {Classification Trees for Problems with Monotonicity Constraints},
+  author = {Potharst, R. and Feelders, A. J.},
+  year = {2002},
   volume = {4},
-  pages = {118--130},
-  abstract = {In distributed control systems with shared resources, participating agents can improve the overall performance of the system by sharing data about their personal preferences. In this paper, we formulate and study a natural tradeoff arising in these problems between the privacy of the agent's data and the performance of the control system. We formalize privacy in terms of differential privacy of agents' preference vectors. The overall control system consists of N agents with linear discrete-time coupled dynamics, each controlled to track its preference vector. Performance of the system is measured by the mean squared tracking error. We present a mechanism that achieves differential privacy by adding Laplace noise to the shared information in a way that depends on the sensitivity of the control system to the private data. We show that for stable systems the performance cost of using this type of privacy preserving mechanism grows as O(T3/N{$\epsilon$}2), where T is the time horizon and {$\epsilon$} is the privacy parameter. For unstable systems, the cost grows exponentially with time. From an estimation point of view, we establish a lower-bound for the entropy of any unbiased estimator of the private data from any noise-adding mechanism that gives {$\epsilon$}-differential privacy. We show that the mechanism achieving this lower-bound is a randomized mechanism that also uses Laplace noise.},
-  journal = {IEEE Transactions on Control of Network Systems (TCNS)},
+  pages = {1},
+  journal = {ACM SIGKDD Explorations Newsletter},
+  language = {en},
   number = {1}
 }
 
-@inproceedings{wang_DifferentialPrivacyMinimumvariance_2017,
-  title = {Differential Privacy and Minimum-Variance Unbiased Estimation in Multi-Agent Control Systems},
-  booktitle = {20th {{IFAC World Congress}} ({{WC}}), {{IFAC}}-{{PapersOnLine}}},
-  author = {Wang, Yu and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2017},
-  volume = {50},
-  pages = {9521--9526},
-  abstract = {In a discrete-time linear multi-agent control system, where the agents are coupled via an environmental state, knowledge of the environmental state is desirable to control the agents locally. However, since the environmental state depends on the behavior of the agents, sharing it directly among these agents jeopardizes the privacy of the agents' profiles, defined as the combination of the agents' initial states and the sequence of local control inputs over time. A commonly used solution is to randomize the environmental state before sharing - this leads to a natural trade-off between the privacy of the agents' profiles and the variance of estimating the environmental state. By treating the multi-agent system as a probabilistic model of the environmental state parametrized by the agents' profiles, we show that when the agents' profiles is e-differentially private, there is a lower bound on the l1 induced norm of the covariance matrix of the minimum-variance unbiased estimator of the environmental state. This lower bound is achieved by a randomized mechanism that uses Laplace noise.}
-}
-% == BibTeX quality report for wang_DifferentialPrivacyMinimumvariance_2017:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@inproceedings{wang_EntropyminimizingMechanismDifferential_2014,
-  title = {Entropy-Minimizing Mechanism for Differential Privacy of Discrete-Time Linear Feedback Systems},
-  booktitle = {53rd {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Huang, Zhenqi and Mitra, Sayan and Dullerud, Geir E.},
-  year = {2014},
-  pages = {2130--2135},
-  abstract = {The concept of differential privacy stems from the study of private query of datasets. In this work, we apply this concept to metric spaces to study a mechanism that randomizes a deterministic query by adding mean-zero noise to keep differential privacy. For one-shot queries, we show that {$\in$}-differential privacy of an n-dimensional input implies a lower bound n - n ln({$\in$}/2) on the entropy of the randomized output, and this lower bound is achieved by adding Laplacian noise. We then consider the {$\in$}-differential privacy of a discrete-time linear feedback system in which noise is added to the system output at each time. The adversary estimates the system states from the output history. We show that, to keep the system {$\in$}-differentially private, the output entropy is bounded below, and this lower bound is achieves by an explicit mechanism.}
-}
-% == BibTeX quality report for wang_EntropyminimizingMechanismDifferential_2014:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@article{wang_LogisticFactorizationModel_2019,
-  title = {A Logistic Factorization Model for Recommender Systems with Multinomial Responses},
-  author = {Wang, Yu and Bi, Xuan and Qu, Annie},
-  year = {2019},
-  pages = {1--25},
-  abstract = {In this paper, we propose a two-way multinomial logistic model for recommender systems for categorical ratings. Specifically, we treat the possible ratings as mutually exclusive events, whose probability is determined by the latent factor of the users and the items through a two-way multinomial logistic function. The proposed method has a compatibility with categorical ratings and the advantage of incorporating both the covariate information and the latent factors of the users and items uniformly. We show numerically that the proposed method performs consistently better than five commonly used collaborative filtering methods, namely, the restricted singular value decomposition, the soft-impute matrix completion method, the regression-based latent factor models, the restricted Boltzmann machine, and the group-specific recommender system on various simulation setups and on MovieLens data.},
-  journal = {Journal of Computational and Graphical Statistics (JCGS)}
-}
-% == BibTeX quality report for wang_LogisticFactorizationModel_2019:
-% Missing required field 'number'
-% Missing required field 'volume'
-
-@inproceedings{wang_MoriZwanzigMITLBased_2015,
-  title = {A {{Mori}}-{{Zwanzig}} and {{MITL}} Based Approach to Statistical Verification of Continuous-Time Dynamical Systems},
-  booktitle = {5th {{IFAC Conference}} on {{Analysis}} and {{Design}} of {{Hybrid Systems}} ({{ADHS}}), {{IFAC}}-{{PapersOnLine}}},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2015},
-  volume = {48},
-  pages = {267--273},
-  abstract = {In this work, we introduce a framework for the statistical verification of Metric Interval Temporal Logic (MITL) formulas on continuous-time dynamical systems. By considering the continuous-time Markov process associated with the dynamical system, we apply the Mori-Zwanzig method to reduce the original system to a Continuous-Time Markov Chain (CTMC). Accordingly, the MITL formulas on the original system can be reduced to MITL formulas on the CTMC. Furthermore, we propose a statistical verification algorithm for checking the MITL formulas on the CTMCand show that the original MITL formulas on the original system can be checked by this procedure.}
-}
-% == BibTeX quality report for wang_MoriZwanzigMITLBased_2015:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@article{wang_StabilityAnalysisSwitched_2017,
-  title = {Stability Analysis of Switched Linear Systems Defined by Regular Languages},
-  author = {Wang, Yu and Roohi, Nima and Dullerud, Geir E. and Viswanathan, Mahesh},
-  year = {2017},
-  volume = {62},
-  pages = {2568--2575},
-  abstract = {In this work, we study the stability of an autonomous discrete-time linear switched system whose switching sequences are generated by a Muller automaton. This system arises in various engineering problems such as distributed communication and automotive engine control. The asymptotic stability of this system, referred to as regular asymptotic stability (RAS), generalizes two well-known definitions of stability of autonomous discrete-time linear switched systems, namely absolute asymptotic stability (AAS) and shuffle asymptotic stability (SAS). We also extend these stability definitions to robust versions. We show that absolute asymptotic stability, robust absolute asymptotic stability and robust shuffle asymptotic stability are equivalent to exponential stability. In addition, by using the Kronecker product, we prove that a robust regular asymptotic stability problem is equivalent to the conjunction of several robust absolute asymptotic stability problems.},
-  journal = {IEEE Transactions on Automatic Control (TAC)},
-  number = {5}
-}
-
-@inproceedings{wang_StabilityLinearAutonomous_2014,
-  title = {Stability of Linear Autonomous Systems under Regular Switching Sequences},
-  booktitle = {53rd {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Roohi, Nima and Dullerud, Geir E. and Viswanathan, Mahesh},
-  year = {2014},
-  pages = {5445--5450},
-  abstract = {In this work, we discuss the stability of a discrete-time linear autonomous system under regular switching sequences, whose switching sequences are generated by a Muller automaton. The asymptotic stability of this system, referred to as regular asymptotic stability, generalizes two well-known definitions of stability of autonomous discrete-time linear switched systems, namely absolute asymptotic stability (AAS) and shuffle asymptotic stability (SAS). We also extend these stability definitions to robust versions. We prove that absolute asymptotic stability, robust absolute asymptotic stability and robust shuffle asymptotic stability are equivalent to exponential stability. In addition, by using the Kronecker product, we prove that a robust regular asymptotic stability problem is equivalent to the conjunction of several robust absolute asymptotic stability problems.}
-}
-% == BibTeX quality report for wang_StabilityLinearAutonomous_2014:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@phdthesis{wang_StabilityLinearSystems_2014,
-  title = {Stability of Linear Systems under Regular Switching Sequences},
-  author = {Wang, Yu},
-  year = {2014},
-  copyright = {All rights reserved},
-  school = {University of Illinois at Urbana-Champaign}
-}
-
-@phdthesis{wang_StatisticalVerificationDifferential_2018,
-  title = {Statistical Verification and Differential Privacy in Cyber-Physical Systems},
-  author = {Wang, Yu},
+@inproceedings{richards_LyapunovNeuralNetwork_2018,
+  title = {The {{Lyapunov Neural Network}}: {{Adaptive Stability Certification}} for {{Safe Learning}} of {{Dynamical Systems}}},
+  booktitle = {Proceedings of {{The}} 2nd {{Conference}} on {{Robot Learning}}},
+  author = {Richards, Spencer M. and Berkenkamp, Felix and Krause, Andreas},
   year = {2018},
-  copyright = {All rights reserved},
-  school = {University of Illinois at Urbana Champaign}
+  pages = {466--476},
+  abstract = {Learning algorithms have shown considerable prowess in simulation by allowing robots to adapt to uncertain environments and improve their performance. However, such algorithms are rarely used in practice on safety-critical systems, since the learned policy typically does not yield any safety guarantees. That is, the required exploration may cause physical harm to the robot or its environment. In this paper, we present a method to learn accurate safety certificates for nonlinear, closed-loop dynamical systems. Specifically, we construct a neural network Lyapunov function and a training algorithm that adapts it to the shape of the largest safe region in the state space. The algorithm relies only on knowledge of inputs and outputs of the dynamics, rather than on any specific model structure. We demonstrate our method by learning the safe region of attraction for a simulated inverted pendulum. Furthermore, we discuss how our method can be used in safe learning algorithms together with statistical models of dynamical systems.},
+  archivePrefix = {arXiv}
 }
-
-@inproceedings{wang_StatisticalVerificationDynamical_2015,
-  title = {Statistical Verification of Dynamical Systems Using Set Oriented Methods},
-  booktitle = {18th {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2015},
-  pages = {169--178},
-  abstract = {Modeling, analyzing and verifying real physical systems has long been a challenging task since the state space of the systems is usually infinite and the dynamics of the systems is generally nonlinear and stochastic. In this work, we employ an extension of linear temporal logic (LTL) to describe the behavior of discrete-time nonlinear stochastic systems; this extension is so-called linear inequality LTL (iLTL) which allows for atomic propositions that are linear inequalities on state spaces. To statistically verify iLTL formulas on the systems, we first reformulate discrete-time nonlinear stochastic dynamical systems into Markov processes on their continuous state spaces and then reduce them to discrete-time Markov chains (DTMC) using set-oriented methods. Furthermore, a statistical verification algorithm is proposed to verify iLTL formulas on the reduced systems. The correctness of this statistical verification algorithm is checked both by theoretical analysis and the simulation of a fluid problem. We will show in the successive work that the framework extends to hybrid systems, which is a significant motivation for the approach taken.}
-}
-% == BibTeX quality report for wang_StatisticalVerificationDynamical_2015:
+% == BibTeX quality report for richards_LyapunovNeuralNetwork_2018:
 % Missing required field 'publisher'
+% ? Title looks like it was stored in title-case in Zotero
 
-@article{wang_StatisticalVerificationHyperproperties_2019,
-  title = {Statistical Verification of Hyperproperties for Cyber-Physical Systems},
-  author = {Wang, Yu and Zarei, Mojtaba and Bonakdarpour, Borzoo and Pajic, Miroslav},
-  year = {2019},
-  volume = {18},
-  pages = {1--23},
-  abstract = {Many important properties of cyber-physical systems (CPS) are defined upon the relationship between multiple executions simultaneously in continuous time. Examples include probabilistic fairness and sensitivity to modeling errors (i.e., parameters changes) for real-valued signals. These requirements can only be specified by hyperproperties. In this work, we focus on verifying probabilistic hyperproperties for CPS. To cover a wide range of modeling formalisms, we first propose a general model of probabilistic uncertain systems (PUSs) that unify commonly studied CPS models such as continuous-time Markov chains (CTMCs) and probabilistically parametrized Hybrid I/O Automata. To formally specify hyperproperties, we propose a new temporal logic, hyper probabilistic signal temporal logic (HyperPSTL) that serves as a hyper and probabilistic version of the conventional signal temporal logic (STL). Considering complexity of real-world systems that can be captured as PUSs, we adopt a statistical model checking (SMC) approach for their verification. We develop a new SMC technique based on the direct computation of the significance levels of statistical assertions for HyperPSTL specifications, which requires no a priori knowledge on the indifference margin. Then, we introduce SMC algorithms for HyperPSTL specifications on the joint probabilistic distribution of multiple paths, as well as specifications with nested probabilistic operators quantifying different paths, which cannot be handled by existing SMC algorithms. Finally, we show the effectiveness of our SMC algorithms on CPS benchmarks with varying levels of complexity, including the Toyota Powertrain Control System.},
-  copyright = {All rights reserved},
-  journal = {ACM Transactions on Embedded Computing Systems (TECS), part of the ESWEEK-TECS special issue, presented in the ACM SIGBED International Conference on Embedded Software (EMSOFT)}
+@incollection{sill_MonotonicityHints_1997,
+  title = {Monotonicity {{Hints}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}} 9},
+  author = {Sill, Joseph and {Abu-Mostafa}, Yaser S.},
+  year = {1997},
+  pages = {634--640}
 }
-% == BibTeX quality report for wang_StatisticalVerificationHyperproperties_2019:
-% Missing required field 'number'
+% == BibTeX quality report for sill_MonotonicityHints_1997:
+% Missing required field 'publisher'
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{wang_StatisticalVerificationPCTL_2018,
-  title = {Statistical Verification of {{PCTL}} Using Stratified Samples},
-  booktitle = {6th {{IFAC Conference}} on {{Analysis}} and {{Design}} of {{Hybrid Systems}} ({{ADHS}}), {{IFAC}}-{{PapersOnLine}}},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2018},
-  volume = {51},
-  pages = {85--90},
-  abstract = {In this work, we propose a stratified sampling method to statistically check Probabilistic Computation Tree Logic (PCTL) formulas on discrete-time Markov chains with sequential probability ratio test. Distinct from previous statistical verification methods using independent Monte Carlo sampling, our algorithm uses stratified samples that are negatively correlated, thus give lower variance. The experiments demonstrate that the new algorithm uses a smaller number of samples for a given confidence level on several benchmark examples.}
+@inproceedings{sill_MonotonicNetworks_1998,
+  title = {Monotonic {{Networks}}},
+  booktitle = {Advances in Neural Information Processing Systems},
+  author = {Sill, Joseph},
+  year = {1998},
+  pages = {661--667},
+  abstract = {Monotonicity is a constraint which arises in many application domains. We present a machine learning model, the monotonic network, for which monotonicity can be enforced exactly, i.e., by virtue offunctional form . A straightforward method for implementing and training a monotonic network is described. Monotonic networks are proven to be universal approximators of continuous, differentiable monotonic functions. We apply monotonic networks to a real-world task in corporate bond rating prediction and compare them to other approaches.},
+  language = {en}
 }
-% == BibTeX quality report for wang_StatisticalVerificationPCTL_2018:
+% == BibTeX quality report for sill_MonotonicNetworks_1998:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
 
-@article{wang_StatisticalVerificationPCTL_2019,
-  title = {Statistical Verification of {{PCTL}} Using Antithetic and Stratified Samples},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2019},
-  pages = {1--19},
-  abstract = {In this work, we study the problem of statistically verifying Probabilistic Computation Tree Logic (PCTL) formulas on discrete-time Markov chains (DTMCs) with stratified and antithetic samples. We show that by properly choosing the representation of the DTMCs, semantically negatively correlated samples can be generated for a fraction of PCTL formulas via the stratified or antithetic sampling techniques. Using stratified or antithetic samples, we propose statistical verification algorithms with asymptotic correctness guarantees based on sequential probability ratio tests, and show that these algorithms are more sample-efficient than the algorithms using independent Monte Carlo sampling. Finally, the efficiency of the statistical verification algorithm with stratified and antithetic samples is demonstrated by numerical experiments on several benchmarks.},
-  journal = {Formal Methods in System Design (FMSD)}
+@book{smith_MonotoneDynamicalSystems_2008,
+  title = {Monotone {{Dynamical Systems}}: {{An Introduction}} to the {{Theory}} of {{Competitive}} and {{Cooperative Systems}}},
+  author = {Smith, Hal},
+  year = {2008},
+  volume = {41},
+  abstract = {Advancing research. Creating connections.},
+  language = {en}
 }
-% == BibTeX quality report for wang_StatisticalVerificationPCTL_2019:
-% Missing required field 'number'
-% Missing required field 'volume'
+% == BibTeX quality report for smith_MonotoneDynamicalSystems_2008:
+% Missing required field 'publisher'
+% ? Title looks like it was stored in title-case in Zotero
 
-@article{wang_StudyDynamicContact_2014,
-  title = {A Study of Dynamic Contact Angles of Shear-Thickening Power-Law Fluids},
-  author = {Wang, Yu and Zhu, Ke-Qin},
+@article{srivastava_DropoutSimpleWay_2014,
+  title = {Dropout: {{A Simple Way}} to {{Prevent Neural Networks}} from {{Overfitting}}},
+  author = {Srivastava, Nitish and Hinton, Geoffrey and Krizhevsky, Alex and Sutskever, Ilya and Salakhutdinov, Ruslan},
   year = {2014},
-  volume = {26},
-  pages = {052103},
-  abstract = {We study the dynamic wetting of shear-thickening power-law fluids in a liquid-solid-gas contact system. In the previous model based on hydrodynamic analysis, microscopic effects near the contact line are neglected. In this work, we adopt two different physical models, slip boundary model and molecular force model, to incorporate microscopic effects and relieve the stress singularity at the moving contact line in hydrodynamics analysis. The two models, which are mathematically equivalent for Newtonian fluids, lead to different results on the dependence of the liquid's dynamic contact angle on its moving speed in both complete wetting and partial wetting cases. By comparing with experiments, we find that the slip boundary model matches the experiments better than the previous model and the molecular force model.},
-  journal = {Physics of Fluids (PoF)},
-  number = {5}
+  volume = {15},
+  pages = {1929--1958},
+  journal = {Journal of Machine Learning Research}
 }
+% == BibTeX quality report for srivastava_DropoutSimpleWay_2014:
+% Missing required field 'number'
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{wang_SupervisoryControlDiscrete_2019,
-  title = {Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks},
-  booktitle = {58th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Pajic, Miroslav},
+@inproceedings{wehenkel_UnconstrainedMonotonicNeural_2019,
+  title = {Unconstrained {{Monotonic Neural Networks}}},
+  booktitle = {Advances in {{Neural Information Processing Systems}}},
+  author = {Wehenkel, Antoine and Louppe, Gilles},
   year = {2019},
-  pages = {5350--5355},
-  abstract = {This work focuses on control of discrete event systems (DES) in the presence of attacks on their inputs and outputs. We propose to model such attacks as nondeterministic finite state transducers (FSTs) and show how FSTs can be used to capture a very wide class of attacks including all previously considered attacks on DES, as well as additional attacks and attack features reported in recent security incidents.
-We study the supervisory control problem in cases when attacks occur: (i) only on the sensors, (ii) only on the actuators, and (iii) both on the actuators and sensors of the plant. For each case, we present new sets of controllability theorems and synthesizing algorithms for attack-resilient supervisors. On a series of examples, we illustrate the use of our approach for modeling and design of such security-aware supervisory control.}
+  pages = {1543--1553},
+  abstract = {Monotonic neural networks have recently been proposed as a way to define invertible transformations. These transformations can be combined into powerful autoregressive flows that have been shown to be universal approximators of continuous probability distributions. Architectures that ensure monotonicity typically enforce constraints on weights and activation functions, which enables invertibility but leads to a cap on the expressiveness of the resulting transformations. In this work, we propose the Unconstrained Monotonic Neural Network (UMNN) architecture based on the insight that a function is monotonic as long as its derivative is strictly positive. In particular, this latter condition can be enforced with a free-form neural network whose only constraint is the positiveness of its output. We evaluate our new invertible building block within a new autoregressive flow (UMNN-MAF) and demonstrate its effectiveness on density estimation experiments. We also illustrate the ability of UMNNs to improve variational inference.},
+  archivePrefix = {arXiv},
+  language = {en}
 }
-% == BibTeX quality report for wang_SupervisoryControlDiscrete_2019:
+% == BibTeX quality report for wehenkel_UnconstrainedMonotonicNeural_2019:
 % Missing required field 'publisher'
 % ? Unsure about the formatting of the booktitle
+% ? Title looks like it was stored in title-case in Zotero
 
-@inproceedings{wang_VerifyingContinuoustimeStochastic_2016,
-  title = {Verifying Continuous-Time Stochastic Hybrid Systems via {{Mori}}-{{Zwanzig}} Model Reduction},
-  booktitle = {55th {{IEEE Conference}} on {{Decision}} and {{Control}} ({{CDC}})},
-  author = {Wang, Yu and Roohi, Nima and West, Matthew and Viswanathan, Mahesh and Dullerud, Geir E.},
-  year = {2016},
-  pages = {3012--3017},
-  abstract = {In this work, we develop a method for verifying Continuous-time Stochastic Hybrid Systems (CTSHSs) using the Mori-Zwanzig model reduction method, whose behaviors are specified by Metric Interval Temporal Logic (MITL) formulas. By partitioning the state space of the CTSHS and computing the optimal transition rates between partitions, we provide a procedure to both reduce a CTSHS to a Continuous-Time Markov Chain (CTMC), and the associated MITL formulas defined on the CTSHS to MITL specifications on the CTMC. We prove that an MITL formula on the CTSHS is true (or false) if the corresponding MITL formula on the CTMC is robustly true (or false) under certain perturbations. In addition, we propose a stochastic algorithm to complete the verification. Finally, as an example, we implement the method in a Billiard Problem.}
+@article{xia_GeneralProjectionNeural_2004,
+  title = {A {{General Projection Neural Network}} for {{Solving Monotone Variational Inequalities}} and {{Related Optimization Problems}}},
+  author = {Xia, Y. and Wang, J.},
+  year = {2004},
+  volume = {15},
+  pages = {318--328},
+  abstract = {Recently, a projection neural network for solving monotone variational inequalities and constrained optimization problems was developed. In this paper, we propose a general projection neural network for solving a wider class of variational inequalities and related optimization problems. In addition to its simple structure and low complexity, the proposed neural network includes existing neural networks for optimization, such as the projection neural network, the primal-dual neural network, and the dual neural network, as special cases. Under various mild conditions, the proposed general projection neural network is shown to be globally convergent, globally asymptotically stable, and globally exponentially stable. Furthermore, several improved stability criteria on two special cases of the general projection neural network are obtained under weaker conditions. Simulation results demonstrate the effectiveness and characteristics of the proposed neural network.},
+  journal = {IEEE Transactions on Neural Networks},
+  language = {en},
+  number = {2}
 }
-% == BibTeX quality report for wang_VerifyingContinuoustimeStochastic_2016:
-% Missing required field 'publisher'
-% ? Unsure about the formatting of the booktitle
-
-@inproceedings{zarei_StatisticalVerificationLearningbased_2020,
-  title = {Statistical Verification of Learning-Based Cyber-Physical Systems},
-  booktitle = {23rd {{ACM International Conference}} on {{Hybrid Systems}}: {{Computation}} and {{Control}} ({{HSCC}})},
-  author = {Zarei, Mojtaba and Wang, Yu and Pajic, Miroslav},
-  year = {2020},
-  pages = {1--7},
-  abstract = {The use of Neural Network (NN)-based controllers has attracted significant attentions in recent years. However, due to the complexity and non-linearity of such NN-based cyber-physical systems (CPS), existing verification techniques that employ exhaustive state-space search, face significant scalability challenges; this effectively limits their capability for analyzing real-world CPS. Consequently, in this work, we focus on the use of Statistical Model Checking (SMC) for verifying complex NN-controlled CPS. Using an SMC approach based on Clopper-Pearson confidence levels, we verify from samples specifications defined by Signal Temporal Logic (STL) formulas. Specifically, we consider three CPS benchmarks with varying levels of plant and controller complexity, as well as the type of considered STL properties -- reachability property for a mountain car, safety property for a bipedal robot, and control performance of the closed-loop magnet levitation system.
-On these benchmarks, we show that SMC methods can be successfully used to provide high-assurance for learning-based CPS.}
-}
-% == BibTeX quality report for zarei_StatisticalVerificationLearningbased_2020:
-% Missing required field 'publisher'
+% == BibTeX quality report for xia_GeneralProjectionNeural_2004:
+% ? Title looks like it was stored in title-case in Zotero
 
 
