@@ -8,7 +8,27 @@ weight = 50  # Order that this section will appear.
 title = "News"
 +++
 
+<p>Our paper
+<i><a href = https://arxiv.org/abs/1902.04111>
+Statistical Model Checking for Hyperproperties
+</a></i>
+is accepted to CSF '21.
+</p>
 
+<p>Our paper
+<i><a href = https://arxiv.org/pdf/2004.00273>
+Statistically Model Checking PCTL Specifications 
+on Markov Decision Processes via Reinforcement Learning
+</a></i>
+is accepted to CDC '20.
+</p>
+
+<p>Our paper
+<i><a href = https://arxiv.org/abs/2007.05793>
+Context-aware temporal logic for probabilistic systems 
+</a></i>
+is accepted to ATVA '20.
+</p>
 
 <p>
 My virtual presentation for ICRA '20:  
@@ -29,7 +49,6 @@ slides</a> and
 <a href = https://youtu.be/gDtgdYIF-d0> 
 video</a>.
 </p>
-
 
 <p>Our paper
 <i><a href = >
