@@ -1,0 +1,12 @@
+---
+title: "Entropy-Minimizing Mechanism for Differential Privacy of Discrete-Time Linear Feedback Systems"
+date: 2014-12-15
+publishDate: 2014-12-15
+authors: ["Yu Wang", "Zhenqi Huang", "Sayan Mitra", "Geir E. Dullerud"]
+publication_types: ["1"]
+abstract: "The concept of differential privacy stems from the study of private query of datasets. In this work, we apply this concept to metric spaces to study a mechanism that randomizes a deterministic query by adding mean-zero noise to keep differential privacy. For one-shot queries, we show that $ın$-differential privacy of an n-dimensional input implies a lower bound n - n ln($ın$/2) on the entropy of the randomized output, and this lower bound is achieved by adding Laplacian noise. We then consider the $ın$-differential privacy of a discrete-time linear feedback system in which noise is added to the system output at each time. The adversary estimates the system states from the output history. We show that, to keep the system $ın$-differentially private, the output entropy is bounded below, and this lower bound is achieves by an explicit mechanism."
+featured: false
+publication: "*IEEE Conference on Decision and Control (CDC)*"
+url_pdf: https://ieeexplore.ieee.org/document/7039713
+---
+

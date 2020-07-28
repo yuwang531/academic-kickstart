@@ -1,0 +1,12 @@
+---
+title: "Supervisory Control of Discrete Event Systems in the Presence of Sensor and Actuator Attacks"
+date: 2019-12-15
+publishDate: 2019-12-15
+authors: ["Yu Wang", "Miroslav Pajic"]
+publication_types: ["1"]
+abstract: "This work focuses on control of discrete event systems (DES) in the presence of attacks on their inputs and outputs. We propose to model such attacks as nondeterministic finite state transducers (FSTs) and show how FSTs can be used to capture a very wide class of attacks including all previously considered attacks on DES, as well as additional attacks and attack features reported in recent security incidents. We study the supervisory control problem in cases when attacks occur: (i) only on the sensors, (ii) only on the actuators, and (iii) both on the actuators and sensors of the plant. For each case, we present new sets of controllability theorems and synthesizing algorithms for attack-resilient supervisors. On a series of examples, we illustrate the use of our approach for modeling and design of such security-aware supervisory control."
+featured: false
+publication: "*58th IEEE Conference on Decision and Control (CDC)*"
+url_pdf: "https://ieeexplore.ieee.org/document/9029767"
+---
+
