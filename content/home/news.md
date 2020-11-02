@@ -8,11 +8,36 @@ weight = 50  # Order that this section will appear.
 title = "News"
 +++
 
+<p>
+My virtual presentation for 
+<a href = http://ncr.mae.ufl.edu/aacoe.php?id=aa/uta20> 
+AACE</a>
+Fall 2020 Review:  
+<a href = http://ncr.mae.ufl.edu/aa/files/Fall2020/Pajic_Yu.pdf> 
+Slides</a> and 
+<a href = http://ncr.mae.ufl.edu/aa/files/Fall2020/Pajic_Yu.mp4> 
+Video</a>.
+</p>
+
+
 <p>Our paper
 <i><a href = https://arxiv.org/abs/1902.04111>
 Statistical Model Checking for Hyperproperties
 </a></i>
-is accepted to CSF '21.
+is accepted to 
+<a href = http://www.ieee-security.org/TC/CSF2021/> 
+CSF '21</a>
+.
+</p>
+
+<p>Our paper
+<i><a href = https://arxiv.org/abs/1902.04111>
+Context-Aware Temporal Logic for Probabilistic Systems
+</a></i>
+is accepted to 
+<a href = http://fit.uet.vnu.edu.vn/atva2020/> 
+ATVA '20</a>
+.
 </p>
 
 <p>Our paper
@@ -20,41 +45,40 @@ is accepted to CSF '21.
 Statistically Model Checking PCTL Specifications 
 on Markov Decision Processes via Reinforcement Learning
 </a></i>
-is accepted to CDC '20.
-</p>
-
-<p>Our paper
-<i><a href = https://arxiv.org/abs/2007.05793>
-Context-aware temporal logic for probabilistic systems 
-</a></i>
-is accepted to ATVA '20.
+is accepted to 
+<a href = https://cdc2020.ieeecss.org/> 
+CDC '20</a>
+.
 </p>
 
 <p>
 My virtual presentation for ICRA '20:  
 <a href = https://arxiv.org/abs/1911.11870>
-paper</a>,
+Paper</a>,
 <a href = https://youtu.be/JZ5OWdX3hmY> 
-slides</a> and 
+Slides</a> and 
 <a href = https://youtu.be/JZ5OWdX3hmY> 
-video</a>.
+Video</a>
+.
 </p>
 
 <p>
 My virtual presentation for HSCC '20:
 <a href = https://dl.acm.org/doi/10.1145/3365365.3382209>
-paper</a>, 
+Paper</a>, 
 <a href = https://labcloud.ddns.net/index.php/s/GFjJ2Tq3aJqmcHn> 
-slides</a> and 
+Slides</a> and 
 <a href = https://youtu.be/gDtgdYIF-d0> 
-video</a>.
+Video</a>
+.
 </p>
 
 <p>Our paper
 <i><a href = >
 STMC: Statistical Model Checker with Stratified and Antithetic Sampling
 </a></i>
-is accepted to CAV '20.
+is accepted to CAV '20
+.
 </p>
 
 <p>Our papers
