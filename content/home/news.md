@@ -26,8 +26,7 @@ Statistical Model Checking for Hyperproperties
 </a></i>
 is accepted to 
 <a href = http://www.ieee-security.org/TC/CSF2021/> 
-CSF '21</a>
-.
+CSF '21</a>.
 </p>
 
 <p>Our paper
@@ -36,8 +35,7 @@ Context-Aware Temporal Logic for Probabilistic Systems
 </a></i>
 is accepted to 
 <a href = http://fit.uet.vnu.edu.vn/atva2020/> 
-ATVA '20</a>
-.
+ATVA '20</a>.
 </p>
 
 <p>Our paper
@@ -47,41 +45,45 @@ on Markov Decision Processes via Reinforcement Learning
 </a></i>
 is accepted to 
 <a href = https://cdc2020.ieeecss.org/> 
-CDC '20</a>
-.
+CDC '20</a>.
 </p>
 
+
 <p>
-My virtual presentation for ICRA '20:  
+My virtual presentation for 
+<a href = https://www.icra2020.org/> 
+ICRA '20</a>: 
 <a href = https://arxiv.org/abs/1911.11870>
 Paper</a>,
 <a href = https://youtu.be/JZ5OWdX3hmY> 
 Slides</a> and 
 <a href = https://youtu.be/JZ5OWdX3hmY> 
-Video</a>
-.
+Video</a>.
 </p>
 
+
 <p>
-My virtual presentation for HSCC '20:
+My virtual presentation for 
+<a href = https://berkeleylearnverify.github.io/HSCC_2020/> 
+HSCC '20</a>:
 <a href = https://dl.acm.org/doi/10.1145/3365365.3382209>
 Paper</a>, 
 <a href = https://labcloud.ddns.net/index.php/s/GFjJ2Tq3aJqmcHn> 
 Slides</a> and 
 <a href = https://youtu.be/gDtgdYIF-d0> 
-Video</a>
-.
+Video</a>.
 </p>
 
 <p>Our paper
 <i><a href = >
 STMC: Statistical Model Checker with Stratified and Antithetic Sampling
 </a></i>
-is accepted to CAV '20
-.
+is accepted to 
+<a href = http://i-cav.org/2020/> 
+CAV '20</a>.
 </p>
 
-<p>Our papers
+<!-- <p>Our papers
 <i><a href = https://arxiv.org/abs/1911.11870>
 Hyperproperties for Robotics: Motion Planning via HyperLTL
 </a></i>
@@ -90,12 +92,12 @@ and
 Control Synthesis from Linear Temporal Logic Specifications Using Model-Free Reinforcement Learning
 </a></i>
 are accepted to ICRA '20.
-</p>
+</p> -->
 
-<p>Our paper
+<!-- <p>Our paper
 <i><a href = https://www.ndss-symposium.org/wp-content/uploads/2020/04/diss2020-23011-paper.pdf>
 Security Analysis against Spoofing Attacks for Distributed UAVs
 </a></i>
 is accepted to DISS '20.
-</p>
+</p> -->
 
