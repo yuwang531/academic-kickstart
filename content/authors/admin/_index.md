@@ -10,39 +10,43 @@ authors:
 superuser: true
 
 # Role/position
-role: Postdoc
+role: Postdoctoral Associate
 
 # Organizations/Affiliations
 organizations:
 - name: Duke University
-  url: "https://ece.duke.edu/"
+  # url: "https://ece.duke.edu/"
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 
 interests:
-- Data-Driven Design and Analysis for Cyber-Physical Autonomy
-
+- Autonomy 
+- Cyber-Physical Systems 
+- Robotics 
+- Machine Learning 
+- Formal methods 
+- Security and Privacy
 
 
 
 education:
   courses:
-  - course: PhD in Mechanical Engineering
-    institution: MechSE UIUC
+  - course: Ph.D. in Mechanical Engineering
+    institution: University of Illinois at Urbana-Champaign
     year: 2018
-  - course: MS in Statistics
-    institution: STAT UIUC
+  - course: M.S. in Statistics
+    institution: University of Illinois at Urbana-Champaign
     year: 2017
-  - course: MS in Mathematics
-    institution: MATH UIUC
+  - course: M.S. in Mathematics
+    institution: University of Illinois at Urbana-Champaign
     year: 2016
-  - course: MS in Mechanical Engineering
-    institution: MechSE UIUC
+  - course: M.S. in Mechanical Engineering
+    institution: University of Illinois at Urbana-Champaign
     year: 2014
-  - course: BE in Engineering Mechanics
-    institution: AE Tsinghua
+  - course: B.E. in Engineering Mechanics
+    institution: Tsinghua University
     year: 2012
 
 # Social/Academic Networking
