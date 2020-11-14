@@ -9,6 +9,25 @@ title = "News"
 +++
 
 <p>
+Guest lecture for 
+<a href = https://newsroom.unl.edu/announce/cse/11371/66484> 
+CSCE-990: Deep Learning and Assured Autonomy Analysis 
+</a> at the University of Nebraska-Lincoln:  
+<a href = https://labcloud.ddns.net/index.php/s/QpQSkyy59okNTR5> 
+Slides</a>.
+</p>
+
+<p>
+My virtual presentation for 
+<a href = https://cdc2020.ieeecss.org/> 
+CDC '20</a>:  
+<a href = https://labcloud.ddns.net/index.php/s/tfKHTJ6fi8GFGAM> 
+Slides</a> and 
+<a href = https://labcloud.ddns.net/index.php/s/QDbWgTHToWFojQF> 
+Video</a>.
+</p>
+
+<p>
 My virtual presentation for 
 <a href = http://ncr.mae.ufl.edu/aacoe.php?id=aa/uta20> 
 AACE</a>

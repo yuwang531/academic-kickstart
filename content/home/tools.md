@@ -34,10 +34,10 @@ Statistical model checker for hyper probabilistic temporal logics
 
 
 <p>
-<a href=https://gitlab.oit.duke.edu/cpsl/mphyper>
+<a href=https://gitlab.oit.duke.edu/cpsl/mp_hyper>
 MPHyper: 
 </a>
-Symbolic motion planner for HyperLTL objectives
+Symbolic Motion Planner for HyperLTL Objectives
 </p>
 
 
@@ -45,7 +45,7 @@ Symbolic motion planner for HyperLTL objectives
 <a href=https://gitlab.oit.duke.edu/cpsl/csrl>
 CSRL: 
 </a>
-Control synthesis for LTL objectives by reinforcement learning
+Control Synthesis for LTL Objectives by Reinforcement Learning
 </p>
 
 <p>

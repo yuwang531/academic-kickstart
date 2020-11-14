@@ -25,10 +25,20 @@ date_format = "Jan 2006"
   date_end = ""
   description = """Advisor: [Prof. Miroslav Pajic](http://people.duke.edu/~mp275/)
 
-  - Developed logical foundation for probabilistic hyperproperties. Proposed design and verification methods that addressed various security and privacy challenges for cyber-physical systems and robotics.
-  - Proposed machine learning methods for temporal logic objectives in robotic planning and statistical model checking.
-  - Proposed logic-based methods to design attack-resilient supervisors for smart infrastructures modeled by discrete event systems.
-  - Developed logic-based situation-awareness protocols for human/cyber-physical system interaction.
+  - Developed hyper-temporal-logic-based design/verification algorithms and tools for security and privacy challenges in cyber-physical and robotic systems
+  [[TECS/EMSOFT 19]](https://dl.acm.org/doi/abs/10.1145/3358232),
+  [[CSF 21]](https://arxiv.org/abs/1902.04111),
+  [[ICRA 20]](https://ieeexplore.ieee.org/abstract/document/9196874),
+  [[HSCC 20]](https://dl.acm.org/doi/abs/10.1145/3365365.3382209).
+  - Proposed logic-based methods to design attack-resilient supervisors for cyber-physical systems/Internet of things modeled by discrete event systems
+  [[CDC 19a]](https://ieeexplore.ieee.org/abstract/document/9029767),
+  [[CDC 19b]](https://ieeexplore.ieee.org/abstract/document/9029366).
+  - Developed logic-based situation-awareness protocols for human-CPS interaction
+  [[CAV 19]](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_10),
+  [[ATVA 20]](https://link.springer.com/chapter/10.1007/978-3-030-59152-6_12).
+  - Proposed machine learning methods for temporal logic objectives in robotic planning
+  [[ICRA 20]](https://ieeexplore.ieee.org/abstract/document/9196796),
+  [[CDC 20]](https://arxiv.org/abs/2004.00273).
   """
 
 [[experience]]
@@ -39,10 +49,26 @@ date_format = "Jan 2006"
   date_end = "2018-07-20"
   description = """Advisor: [Prof. Geir E. Dullerud](https://mechanical.illinois.edu/directory/faculty/dullerud)
 
-  - Developed verification methods for large-scale and complex cyber-physical systems. Developed statistical model checker STMC. Verified Toyota powertrain system.
-  - Designed differentially private communication mechanisms for distributed control and optimization.
-  - Proposed logic-based methods for resilient path planning of unmanned aerial vehicles.
-  - Proposed several stability and robustness criteria for constrained switched systems.
+  - Developed verification algorithms and tools for large-scale and complex cyber-physical systems (e.g., Toyota powertrain system)
+  [[FMSD 19]](https://link.springer.com/article/10.1007/s10703-019-00339-8),
+  [[CAV 20]](https://link.springer.com/chapter/10.1007/978-3-030-53291-8_23),
+  [[HSCC 17]](https://dl.acm.org/doi/abs/10.1145/3049797.3049804), 
+  [[HSCC 15]](https://dl.acm.org/doi/abs/10.1145/2728606.2728627), 
+  [[ADHS 18]](https://www.sciencedirect.com/science/article/pii/S2405896318311285),
+  [[CDC 16]](https://ieeexplore.ieee.org/abstract/document/7798719),
+  [[ADHS 15]](https://www.sciencedirect.com/science/article/pii/S2405896315024441).
+  - Designed differentially private communication mechanisms for distributed control and optimization in cyber-physical systems/Internet of things 
+  [[TCNS 16]](https://ieeexplore.ieee.org/abstract/document/7833044), 
+  [[CDC 14]](https://ieeexplore.ieee.org/abstract/document/7039713), 
+  [[HiCoNS 14]](https://dl.acm.org/doi/abs/10.1145/2566468.2566474), 
+  [[CDC 16]](https://ieeexplore.ieee.org/abstract/document/7798824),
+  [[WC 17]](https://www.sciencedirect.com/science/article/pii/S2405896317322103).
+  - Proposed logic-based methods for resilient path planning of unmanned aerial vehicles 
+  [[CDC 15]](https://ieeexplore.ieee.org/abstract/document/7403394), 
+  [[HotSos 16]](https://dl.acm.org/doi/abs/10.1145/2898375.2898378).
+  - Proposed stability and robustness criteria for constrained switched systems 
+  [[CDC 14]](https://ieeexplore.ieee.org/abstract/document/7040240), 
+  [[TAC 16]](https://ieeexplore.ieee.org/abstract/document/7542531).
   """
 
 [[experience]]
@@ -53,6 +79,7 @@ date_format = "Jan 2006"
   date_end = "2012-07-20"
   description = """Advisor: Prof. Ke-Qin Zhu
 
-  - Compared and validated three physical models for dynamic contact angles of non-Newtonian fluids. 
+  - Compared and validated three physical models for dynamic contact angles of non-Newtonian fluids
+  [[PoF 14]](https://aip.scitation.org/doi/abs/10.1063/1.4873917). 
   """
 +++
