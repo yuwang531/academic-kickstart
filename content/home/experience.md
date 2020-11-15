@@ -3,7 +3,7 @@
 widget = "experience"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 40  # Order that this section will appear.
+weight = 20  # Order that this section will appear.
 
 title = "Experience"
 subtitle = ""
@@ -32,7 +32,8 @@ date_format = "Jan 2006"
   [[HSCC 20]](https://dl.acm.org/doi/abs/10.1145/3365365.3382209).
   - Proposed logic-based methods to design attack-resilient supervisors for cyber-physical systems/Internet of things modeled by discrete event systems
   [[CDC 19a]](https://ieeexplore.ieee.org/abstract/document/9029767),
-  [[CDC 19b]](https://ieeexplore.ieee.org/abstract/document/9029366).
+  [[CDC 19b]](https://ieeexplore.ieee.org/abstract/document/9029366),
+  [[DISS 20]](https://www.ndss-symposium.org/ndss-paper/auto-draft-59/).
   - Developed logic-based situation-awareness protocols for human-CPS interaction
   [[CAV 19]](https://link.springer.com/chapter/10.1007/978-3-030-25540-4_10),
   [[ATVA 20]](https://link.springer.com/chapter/10.1007/978-3-030-59152-6_12).

@@ -29,7 +29,7 @@ Design tool for attack-resilient supervisory controllers
 <a href=https://gitlab.oit.duke.edu/cpsl/hypersmc>
 HyperSMC: 
 </a>
-Statistical model checker for hyper probabilistic temporal logics
+Statistical model checking for hyper probabilistic temporal logics
 </p>
 
 

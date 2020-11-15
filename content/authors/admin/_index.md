@@ -23,10 +23,13 @@ bio:
 
 interests:
 - Autonomy 
-- Cyber-Physical Systems 
+- Cyber-Physical Systems
+- Internet of Things  
 - Robotics 
+- Embedded Systems
 - Machine Learning 
-- Formal methods 
+- Formal Methods
+- Verification 
 - Security and Privacy
 
 
@@ -71,9 +74,9 @@ social:
   link: https://www.researchgate.net/profile/Yu_Wang109
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
-- icon: cv
-  icon_pack: ai
-  link: files/cv.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "yw354@duke.edu"

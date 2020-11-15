@@ -1,67 +1,20 @@
 +++
-# A Recent Publications section created with the Pages widget.
-# This section displays recent blog posts from `content/publication/`.
-
-widget = "featured"  # See https://sourcethemes.com/academic/docs/page-builder/
+# Accomplishments widget.
+widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 90  # Order that this section will appear.
+weight = 40  # Order that this section will appear.
 
 title = "Preprints"
-subtitle = ""
-
-[content]
-  # Page type to display. E.g. post, talk, or publication.
-  page_type = "publication"
-  
-  # Choose how much pages you would like to display (0 = all pages)
-  count = 0
-  
-  # Choose how many pages you would like to offset by
-  offset = 0
-
-  # Page order. Descending (desc) or ascending (asc) date.
-  order = "desc"
-
-  # Filter posts by a taxonomy term.
-  [content.filters]
-    tag = ""
-    category = ""
-    publication_type = ""
-    exclude_featured = false
-  
-[design]
-  # Toggle between the various page layout types.
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
-  view = 4
-  
-[design.background]
-  # Apply a background color, gradient, or image.
-  #   Uncomment (by removing `#`) an option to apply it.
-  #   Choose a light or dark text color by setting `text_color_light`.
-  #   Any HTML color name or Hex value is valid.
-    
-  # Background color.
-  # color = "navy"
-  
-  # Background gradient.
-  # gradient_start = "DeepSkyBlue"
-  # gradient_end = "SkyBlue"
-  
-  # Background image.
-  # image = "background.jpg"  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-
-  # Text color (true=light or false=dark).
-  # text_color_light = true  
-  
-[advanced]
- # Custom CSS. 
- css_style = ""
- 
- # CSS class.
- css_class = ""
 +++
+
+<ol>
+<li><p>Alper Kamil Bozkurt, <strong>Yu Wang</strong>, Michael Zavlanos, and Miroslav Pajic, “Model-Free Reinforcement Learning for Stochastic Games with Linear Temporal Logic Objectives”. <a href="https://arxiv.org/abs/2010.01050"><a href="https://arxiv.org/abs/2010.01050" class="uri">https://arxiv.org/abs/2010.01050</a></a></p></li>
+<li><p>Alper Kamil Bozkurt, <strong>Yu Wang</strong>, and Miroslav Pajic, “Secure Planning Against Stealthy Attacks via Model-Free Reinforcement Learning”. <a href="https://arxiv.org/abs/2011.01882"><a href="https://arxiv.org/abs/2011.01882" class="uri">https://arxiv.org/abs/2011.01882</a></a></p></li>
+<li><p>Tzu-Han Hsu, <strong>Yu Wang</strong>, Borzoo Bonakdarpour, and Miroslav Pajic, “Multi-Agent Path Planning with Hyperproperties”.</p></li>
+<li><p><strong>Yu Wang</strong>, Mojtaba Zarei, Borzoo Bonakdarpour, and Miroslav Pajic, “Probabilistic Conformance for Cyber-Physical Systems”. <a href="https://arxiv.org/abs/2008.01135"><a href="https://arxiv.org/abs/2008.01135" class="uri">https://arxiv.org/abs/2008.01135</a></a></p></li>
+<li><p><strong>Yu Wang</strong>, Hussein Sibai, Sayan Mitra, and Geir E. Dullerud, “Differential Privacy for Sequential Algorithms”. <a href="https://arxiv.org/abs/2004.00275"><a href="https://arxiv.org/abs/2004.00275" class="uri">https://arxiv.org/abs/2004.00275</a></a></p></li>
+<li><p><strong>Yu Wang</strong>, Alper Kamil Bozkurt, and Miroslav Pajic, “Attack-Resilient Supervisory Control of Discrete Event Systems”. <a href="https://arxiv.org/abs/1904.03264"><a href="https://arxiv.org/abs/1904.03264" class="uri">https://arxiv.org/abs/1904.03264</a></a></p></li>
+<li><p><strong>Yu Wang</strong>, Nima Roohi, Matthew West, Mahesh Viswanathan, and Geir E. Dullerud, “Verifying Stochastic Hybrid Systems with Temporal Logic Specifications via Mori-Zwanzig Model Reduction”. <a href="https://arxiv.org/abs/2009.07649"><a href="https://arxiv.org/abs/2009.07649" class="uri">https://arxiv.org/abs/2009.07649</a></a></p></li>
+<li><p><strong>Yu Wang</strong>, Qitong Gao, and Miroslav Pajic, “Deep Learning for Stable Monotone Dynamical Systems”. <a href="https://arxiv.org/abs/2006.06417"><a href="https://arxiv.org/abs/2006.06417" class="uri">https://arxiv.org/abs/2006.06417</a></a></p></li>
+</ol>
