@@ -18,5 +18,5 @@ title = "Selected Publications"
 [<a href=https://nima-roohi.github.io/STMC/#/>Tool: STMC</a>]
 </span></p></li>
 <li><p><strong>Yu Wang</strong>, Zhenqi Huang, Sayan Mitra, and Geir E. Dullerud, “Differential Privacy in Linear Distributed Control Systems: Entropy Minimizing Mechanisms and Performance Tradeoffs”, IEEE Transactions on Control of Network Systems (<strong>TCNS</strong>), vol. 4, no. 1, pp. 118-130, 2017.</p></li>
-<li><p><strong>Yu Wang</strong>, Nima Roohi, Matthew West, Mahesh Viswanathan, and Geir E. Dullerud, “Stability Analysis of Switched Linear Systems Defined **by** Regular Languages”, IEEE Transactions on Automatic Control (<strong>TAC</strong>), vol. 26, no. 5, pp. 2568-2575, 2017.</p></li>
+<li><p><strong>Yu Wang</strong>, Nima Roohi, Matthew West, Mahesh Viswanathan, and Geir E. Dullerud, “Stability Analysis of Switched Linear Systems Defined by Regular Languages”, IEEE Transactions on Automatic Control (<strong>TAC</strong>), vol. 26, no. 5, pp. 2568-2575, 2017.</p></li>
 </ol>

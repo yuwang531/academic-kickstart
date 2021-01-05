@@ -8,6 +8,15 @@ weight = 40  # Order that this section will appear.
 title = "News"
 +++
 
+<p>New paper
+<i><a href = https://arxiv.org/abs/2008.01135>
+Probabilistic Conformance for Cyber-Physical Systems
+</a></i>
+is accepted to 
+<a href = http://iccps.acm.org/2021> 
+ICCPS '21</a>.
+</p>
+
 <p>
 Guest lecture for 
 <a href = https://newsroom.unl.edu/announce/cse/11371/66484> 
@@ -19,7 +28,7 @@ Slides</a>.
 
 <p>
 My virtual presentation for 
-<a href = https://cdc2020.ieeecss.org/> 
+<a href = https://cdc2020.ieeecss.org> 
 CDC '20</a>:  
 <a href = https://labcloud.ddns.net/index.php/s/tfKHTJ6fi8GFGAM> 
 Slides</a> and 
@@ -39,7 +48,7 @@ Video</a>.
 </p>
 
 
-<p>Our paper
+<p>New paper
 <i><a href = https://arxiv.org/abs/1902.04111>
 Statistical Model Checking for Hyperproperties
 </a></i>
@@ -48,7 +57,7 @@ is accepted to
 CSF '21</a>.
 </p>
 
-<p>Our paper
+<p>New paper
 <i><a href = https://arxiv.org/abs/1902.04111>
 Context-Aware Temporal Logic for Probabilistic Systems
 </a></i>
@@ -57,7 +66,7 @@ is accepted to
 ATVA '20</a>.
 </p>
 
-<p>Our paper
+<p>New paper
 <i><a href = https://arxiv.org/pdf/2004.00273>
 Statistically Model Checking PCTL Specifications 
 on Markov Decision Processes via Reinforcement Learning
@@ -93,14 +102,14 @@ Slides</a> and
 Video</a>.
 </p>
 
-<p>Our paper
+<!-- <p>New paper
 <i><a href = >
 STMC: Statistical Model Checker with Stratified and Antithetic Sampling
 </a></i>
 is accepted to 
 <a href = http://i-cav.org/2020/> 
 CAV '20</a>.
-</p>
+</p> -->
 
 <!-- <p>Our papers
 <i><a href = https://arxiv.org/abs/1911.11870>
