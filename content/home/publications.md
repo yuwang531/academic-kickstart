@@ -1,4 +1,4 @@
-+++
+<!-- +++
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -46,4 +46,4 @@ title = "Other Publications"
 <li><p><strong>Yu Wang</strong>, Zhenqi Huang, Sayan Mitra, and Geir E. Dullerud, “Entropy-Minimizing Mechanism for Differential Privacy of Discrete-Time Linear Feedback Systems”, IEEE Conference on Decision and Control (<strong>CDC</strong>), pp. 2130-2135, Los Angeles, CA, Dec. 2014.</p></li>
 <li><p><strong>Yu Wang</strong>, Nima Roohi, Geir E. Dullerud, and Mahesh Viswanathan, “Stability of Linear Autonomous Systems under Regular Switching Sequences”, IEEE Conference on Decision and Control (<strong>CDC</strong>), pp. 5445-5450, Los Angeles, CA, Dec. 2014.</p></li>
 <li><p>Zhenqi Huang, <strong>Yu Wang</strong>, Sayan Mitra, and Geir E. Dullerud, “On the Cost of Differential Privacy in Distributed Control Systems”, International Conference on High Confidence Networked Systems (<strong>HiCoNS</strong>), pp. 105-114, Berlin, Germany, Apr. 2014.</p></li>
-</ol>
+</ol> -->

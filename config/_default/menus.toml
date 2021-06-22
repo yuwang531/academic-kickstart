@@ -23,20 +23,20 @@
   url = "#news"
   weight = 40
 
-[[main]]
-  name = "Publications"
-  url = "#selected"
-  weight = 50
+# [[main]]
+#   name = "Publications"
+#   url = "#selected"
+#   weight = 50
 
-[[main]]
-  name = "Preprints"
-  url = "#preprints"
-  weight = 60
+# [[main]]
+#   name = "Preprints"
+#   url = "#preprints"
+#   weight = 60
 
-[[main]]
-  name = "Software Artifacts"
-  url = "#tools"
-  weight = 60
+# [[main]]
+#   name = "Software Artifacts"
+#   url = "#tools"
+#   weight = 60
 
 [[main]]
   name = "Contact"

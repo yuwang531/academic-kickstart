@@ -79,7 +79,7 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "yw354@duke.edu"
+email: "yu.wang094@duke.edu"
   
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.  
@@ -88,8 +88,8 @@ user_groups:
 - Visitors
 ---
 
-I am a postdoctoral associate at [Cyber-Physical Systems Lab](https://cpsl.pratt.duke.edu/) at Duke University. My research focuses on the analysis and design of high-assurance autonomy using control theory, formal method, statistical methods, and machine learning. 
+I am a postdoctoral associate at [Cyber-Physical Systems Lab](https://cpsl.pratt.duke.edu/) at Duke University. My research focuses on autonomy, control, and robotics via machine learning and formal methods. 
 
-<!-- <span style="color:#f76497">
-I am on the academic job market this year!
-</span> -->
+<span style="color:#f76497">
+I will be joining the University of Florida this fall. Please feel free to send me your CV if you are interested in joining my research group.
+</span>

@@ -1,4 +1,4 @@
-+++
+<!-- +++
 # Accomplishments widget.
 widget = "accomplishments"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -53,4 +53,4 @@ Control Synthesis for LTL Objectives by Reinforcement Learning
 SMCLearning: 
 </a>
 Statistical model checker for deep-neural-network-enabled cyber-physical systems
-</p>
+</p> -->

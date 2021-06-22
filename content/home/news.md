@@ -8,6 +8,27 @@ weight = 40  # Order that this section will appear.
 title = "News"
 +++
 
+<p>
+My virtual presentation for 
+<a href = http://iccps.acm.org/2021> 
+ICCPS '21</a>:  
+<a href = https://www.youtube.com/watch?v=shsXzHK90ag> 
+Video</a>.
+</p>
+
+<p>Two new papers
+<i><a href = https://arxiv.org/abs/2010.01050>
+Model-Free Reinforcement Learning for Stochastic Games with Linear Temporal Logic Objectives
+</a></i>
+and 
+<i><a href = https://arxiv.org/abs/2011.01882>
+Secure Planning Against Stealthy Attacks via Model-Free Reinforcement Learning
+</a></i>
+are accepted to 
+<a href = http://www.icra2021.org> 
+ICRA '21</a>.
+</p>
+
 <p>New paper
 <i><a href = https://arxiv.org/abs/2008.01135>
 Probabilistic Conformance for Cyber-Physical Systems
@@ -77,7 +98,7 @@ CDC '20</a>.
 </p>
 
 
-<p>
+<!-- <p>
 My virtual presentation for 
 <a href = https://www.icra2020.org/> 
 ICRA '20</a>: 
@@ -100,7 +121,7 @@ Paper</a>,
 Slides</a> and 
 <a href = https://youtu.be/gDtgdYIF-d0> 
 Video</a>.
-</p>
+</p> -->
 
 <!-- <p>New paper
 <i><a href = >
