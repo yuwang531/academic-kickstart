@@ -37,13 +37,13 @@ interests:
 education:
   courses:
   - course: Ph.D. in Mechanical Engineering
-    institution: University of Illinois at Urbana-Champaign
+    # institution: University of Illinois at Urbana-Champaign
     year: 2018
   - course: M.S. in Statistics
-    institution: University of Illinois at Urbana-Champaign
+    # institution: University of Illinois at Urbana-Champaign
     year: 2017
   - course: M.S. in Mathematics
-    institution: University of Illinois at Urbana-Champaign
+    # institution: University of Illinois at Urbana-Champaign
     year: 2016
   - course: M.S. in Mechanical Engineering
     institution: University of Illinois at Urbana-Champaign
