@@ -1,4 +1,4 @@
-+++
+<!-- +++
 # Contact widget.
 widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
@@ -17,4 +17,4 @@ autolink = true
 #   2: formspree.io
 email_form = 0
 +++
-
+ -->

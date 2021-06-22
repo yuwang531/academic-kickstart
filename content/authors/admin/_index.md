@@ -23,9 +23,9 @@ bio:
 
 interests:
 - Autonomy 
+- Robotics 
 - Cyber-Physical Systems
 - Internet of Things  
-- Robotics 
 - Embedded Systems
 - Machine Learning 
 - Formal Methods
@@ -57,9 +57,9 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# - icon: envelope
-#   icon_pack: fas
-#   link: 'yw354@duke.edu'  # For a direct email link, use "mailto:test@example.org".
+- icon: envelope
+  icon_pack: fas
+  link: 'yu.wang094@duke.edu'  # For a direct email link, use "mailto:test@example.org".
 # - icon: twitter
 #   icon_pack: fab
 #   link: https://twitter.com/yuwang531
@@ -77,6 +77,9 @@ social:
 # - icon: cv
 #   icon_pack: ai
 #   link: files/cv.pdf
+- icon: youtube
+  icon_pack: fab
+  link: https://www.youtube.com/channel/UC8lVx4xQgzJ3lykDhfibLZA
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "yu.wang094@duke.edu"

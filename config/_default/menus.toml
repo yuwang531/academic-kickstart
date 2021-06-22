@@ -38,10 +38,10 @@
 #   url = "#tools"
 #   weight = 60
 
-[[main]]
-  name = "Contact"
-  url = "#contact"
-  weight = 90
+# [[main]]
+#   name = "Contact"
+#   url = "#contact"
+#   weight = 90
 
 
 
